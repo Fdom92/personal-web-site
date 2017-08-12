@@ -1,0 +1,29 @@
+{
+  "name": "personal-web-site",
+  "version": "1.0.0",
+  "description": "My personal web site",
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "test": "stencil build --watch",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fdom92/personal-web-site.git"
+  },
+  "dependencies": {
+    "@stencil/core": "0.0.4"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "0.0.14",
+    "@stencil/utils": "0.0.4"
+  },
+  "author": "Fernando del olmo martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fdom92/personal-web-site/issues"
+  },
+  "homepage": "https://github.com/Fdom92/personal-web-site#readme"
+}
