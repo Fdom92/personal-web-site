@@ -9,7 +9,9 @@ export class WebHeader {
 
     render() {
         return (
-            <header>Header</header>
+            <header>
+                Hi! Welcome to my website
+            </header>
         );
     }
 }
