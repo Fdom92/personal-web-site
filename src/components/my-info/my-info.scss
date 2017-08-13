@@ -1,0 +1,20 @@
+my-info {
+    display: block;
+
+    .my-info-container {
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+        color: black;
+        font-style: italic;
+        line-height: 1.8em;
+
+        p {
+            display: inline;
+            opacity: 0.6;
+        }
+        .role {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+}
