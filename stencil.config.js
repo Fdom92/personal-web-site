@@ -3,7 +3,7 @@ exports.config = {
       { components: ['web-site'] },
       { components: ['web-header'] },
       { components: ['my-info'] },
-      { components: ['my-projects'] },
+      { components: ['my-projects', 'single-project', 'tech-chip'] },
       { components: ['my-experience'] },
       { components: ['my-hobbies'] },
       { components: ['web-footer'] }

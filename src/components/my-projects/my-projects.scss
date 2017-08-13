@@ -1,0 +1,7 @@
+my-projects {
+    display: grid;
+    padding: 25px 50px 25px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
