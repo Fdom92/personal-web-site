@@ -2,12 +2,12 @@ my-info {
     display: block;
 
     .my-info-container {
-        text-align: center;
-        padding: 50px 0px 50px 0px;
+        padding: 50px 15px 50px 15px;
         color: black;
         font-style: italic;
         line-height: 1.8em;
-
+        cursor: default;
+        
         p {
             display: inline;
             opacity: 0.6;
