@@ -17,8 +17,8 @@
     "@stencil/core": "0.0.4"
   },
   "devDependencies": {
-    "@stencil/dev-server": "0.0.14",
-    "@stencil/utils": "0.0.4"
+    "@stencil/dev-server": "0.0.16",
+    "@stencil/utils": "latest"
   },
   "author": "Fernando del olmo martin",
   "license": "MIT",
