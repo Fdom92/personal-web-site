@@ -17,7 +17,7 @@
     "@stencil/core": "0.0.4"
   },
   "devDependencies": {
-    "@stencil/dev-server": "0.0.16",
+    "@stencil/dev-server": "latest",
     "@stencil/utils": "latest"
   },
   "author": "Fernando del olmo martin",
