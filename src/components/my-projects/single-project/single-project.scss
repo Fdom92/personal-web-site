@@ -7,32 +7,55 @@ single-project {
 
         .container {
             padding: 10px 15px;
+            cursor: default;
+
+            .title {
+                font-size: 14px;
+                font-weight: 500;
+                color: #000000;
+                line-height: 32px;
+            }
+
+            .description {
+                font-size: 12px;
+                font-weight: 400;
+                color: #000000;
+                opacity: 0.6;
+                line-height: 24px;
+                min-height: 54px;
+            }
+
+            .tags {
+                white-space: nowrap;
+                margin-bottom: 5px;
+                margin-top: 5px;
+    
+                tech-chip {
+                    padding-right: 5px;
+                }
+            }
+    
+            .more {
+                margin-top: 20px;
+                a {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #000000;
+                    opacity: 0.6;
+                    line-height: 24px;
+                    min-height: 54px;
+                    text-decoration: none;
+                    cursor: pointer;
+
+                    i {
+                        padding-left: 5px;
+                    }
+                }
+            }
         }
 
         &:hover {
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
-
-        .description {
-            min-height: 54px;
-        }
-
-        .tags {
-            white-space: nowrap;
-            margin-bottom: 5px;
-            margin-top: 5px;
-
-            tech-chip {
-                padding-right: 5px;
-            }
-        }
-
-        .more {
-            margin-top: 20px;
-            a {
-                color: black;
-                text-decoration: none;
-            }
         }
     }
 }

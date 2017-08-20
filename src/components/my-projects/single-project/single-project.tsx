@@ -21,7 +21,7 @@ export class SingleProject {
                 <div class="card">
                     <div class="container">
                         <div class="title">
-                            <h4><b>{this.project.title}</b></h4>
+                            <p>{this.project.title}</p>
                         </div>
                         <div class="description">
                             <p>{this.project.description}</p>
@@ -30,7 +30,10 @@ export class SingleProject {
                             {tags}
                         </div>
                         <div class="more">
-                            <a href={this.project.more}>View more</a>
+                            <a href={this.project.more}>
+                                View more
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
