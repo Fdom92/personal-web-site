@@ -8,23 +8,10 @@ my-experience {
         }
     }
     .example-title {
-        text-align: center;
-        margin-bottom: 60px;
-        padding: 3em 0;
-        border-bottom: 1px solid #E4EAEC;
-        p {
-            margin: 0 auto;
-            font-size: 16px;
-            max-width: 400px;
-        }
+        margin-bottom: 30px;
+        padding: 5px 0;
+        cursor: default;
     }
-
-    /*==================================
-        TIMELINE
-    ==================================*/
-
-    /*-- GENERAL STYLES
-    ------------------------------*/
     .timeline {
         line-height: 1.4em;
         list-style: none;
@@ -35,19 +22,15 @@ my-experience {
             line-height: inherit;
         }
     }
-
-    /*----- TIMELINE ITEM -----*/
-
     .timeline-item {
+        padding-top: 5px;
         padding-left: 40px;
         position: relative;
+        cursor: default;
         &:last-child {
             padding-bottom: 0;
         }
     }
-
-    /*----- TIMELINE INFO -----*/
-
     .timeline-info {
         font-size: 12px;
         font-weight: 700;
@@ -56,8 +39,6 @@ my-experience {
         text-transform: uppercase;
         white-space: nowrap;
     }
-    /*----- TIMELINE MARKER -----*/
-
     .timeline-marker {
         position: absolute;
         top: 0; bottom: 0; left: 0;
@@ -87,22 +68,30 @@ my-experience {
             content: none;
         }
     }
-    .timeline-item:not(.period):hover .timeline-marker:before {
-        background: transparent;
-        border: 3px solid $primary-color;
-    }
-
-    /*----- TIMELINE CONTENT -----*/
-
-    .timeline-content {
-        padding-bottom: 40px;
-        p:last-child {
-            margin-bottom: 0;
+    .timeline-item:not(.period) {
+        &:hover .timeline-marker:before {
+            background: transparent;
+            border: 3px solid $primary-color;
+        }
+        .timeline-title {
+            font-size: 16px;
+            font-weight: normal;            
+            color: #000000;
+            line-height: 24px;
+            margin: 0;
         }
     }
-
-    /*----- TIMELINE PERIOD -----*/
-    
+    .timeline-content {
+        padding-bottom: 40px;
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #000000;
+            opacity: 0.6;
+            line-height: 24px;
+            margin: 0;
+        }
+    }
     .period {
         padding: 0;
         .timeline-info {
@@ -135,11 +124,6 @@ my-experience {
             margin: 0;
         }
     }
-
-    /*----------------------------------------------
-        MOD: TIMELINE SPLIT
-    ----------------------------------------------*/
-
     .timeline-split {
         @media (min-width: 768px) {
             .timeline {
@@ -171,11 +155,6 @@ my-experience {
             }
         }
     }
-
-    /*----------------------------------------------
-        MOD: TIMELINE CENTERED
-    ----------------------------------------------*/
-
     .timeline-centered {
         @extend .timeline-split;
         @media (min-width: 992px) {
@@ -239,12 +218,7 @@ my-experience {
                 left: auto;
             }
         }
-    }
-
-    /*----------------------------------------------
-        MOD: MARKER OUTLINE
-    ----------------------------------------------*/
-        
+    } 
     .marker-outline {
         .timeline-marker {
             &:before {
