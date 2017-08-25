@@ -22,18 +22,18 @@ export class SingleProject {
                     <div class="container">
                         <div class="title">
                             <p>{this.project.title}</p>
+                            <div class="code">
+                                <label>Code</label>
+                                <a target="_blank" href={this.project.more}>
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class="description">
                             <p>{this.project.description}</p>
                         </div>
                         <div class="tags">
                             {tags}
-                        </div>
-                        <div class="more">
-                            <a href={this.project.more}>
-                                View more
-                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            </a>
                         </div>
                     </div>
                 </div>

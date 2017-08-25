@@ -1,6 +1,7 @@
 single-project {
     .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: 1px solid #e0e0e0;
         transition: 0.3s;
         width: 100%;
         height: 100%;
@@ -14,6 +15,21 @@ single-project {
                 font-weight: 500;
                 color: #000000;
                 line-height: 32px;
+                p {
+                    display: initial;
+                }
+                .code {
+                    float: right;
+                    label {
+                        font-size: 12px;
+                        font-weight: 300;
+                        padding-right: 5px;
+                    }
+
+                    a {
+                        cursor: pointer;
+                    }
+                }
             }
 
             .description {
