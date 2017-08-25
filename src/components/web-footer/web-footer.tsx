@@ -13,16 +13,16 @@ export class WebFooter {
                 <div class="footer-main">
                     Feel free to contact me on
                     <div class="footer-links">
-                        <a href="https://twitter.com/fdom92">
+                        <a target="_blank" href="https://twitter.com/fdom92">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
-                        <a href="https://github.com/Fdom92/">
+                        <a target="_blank" href="https://github.com/Fdom92/">
                             <i class="fa fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="https://linkedin.com/in/fdom92">
+                        <a target="_blank" href="https://linkedin.com/in/fdom92">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
-                        <a href="https://stackoverflow.com/users/6691908/fernando-del-olmo">
+                        <a target="_blank" href="https://stackoverflow.com/users/6691908/fernando-del-olmo">
                             <i class="fa fa-stack-overflow" aria-hidden="true"></i>
                         </a>
                     </div>

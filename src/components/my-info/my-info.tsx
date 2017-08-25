@@ -12,7 +12,7 @@ export class MyInfo {
             <div class="my-info-container">
                 <h3>About me</h3>
                 <p>I'm a</p>
-                <label class="role">Frontend developer</label>
+                <p class="role">Frontend developer</p>
                 <p>based on Madrid, Spain. 
                     I studied computer engineering degree and learned by my self 
                     the technologies i use now to work like Angular and Ionic. 
