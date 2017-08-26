@@ -1,0 +1,12 @@
+my-hobbies {
+    .hobbies {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+
+        img {
+            height: 64px;
+            width: 64px;
+        }
+    }
+}
