@@ -10,7 +10,6 @@ export class MyInfo {
     render() {
         return (
             <div class="my-info-container">
-                <h3>About me</h3>
                 <p>I'm a</p>
                 <p class="role">Frontend developer</p>
                 <p>based on Madrid, Spain. 

@@ -11,9 +11,6 @@ export class MyExperience {
         return (
             <div class="container-fluid">
                 <div class="row example-basic">
-                    <div class="col-md-12 example-title">
-                        <h3>Work Experience</h3>
-                    </div>
                     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
                         <ul class="timeline">
                             <li class="timeline-item period">
