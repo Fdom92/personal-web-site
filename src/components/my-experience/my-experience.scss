@@ -225,4 +225,21 @@ my-experience {
             background: $primary-color;
         }
     }
+
+    @media only screen and (min-width: 600px) {
+        .container-fluid {
+            .row {
+                padding: 25px 50px 25px 50px;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .container-fluid {
+            .row {
+                padding: 25px 125px 25px 125px;
+            }
+        }
+
+    }
 }

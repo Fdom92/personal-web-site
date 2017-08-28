@@ -17,4 +17,16 @@ my-info {
             padding-right: 5px;
         }
     }
+
+    @media only screen and (min-width: 600px) {
+        .my-info-container {
+            padding: 25px 50px 25px 50px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .my-info-container {
+            padding: 25px 125px 25px 125px;
+        }
+    }
 }

@@ -9,4 +9,16 @@ my-hobbies {
             width: 64px;
         }
     }
+
+    @media only screen and (min-width: 600px) {
+        .hobbies {
+            padding: 25px 50px 25px 50px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .hobbies {
+            padding: 25px 125px 25px 125px;
+        }
+    }
 }

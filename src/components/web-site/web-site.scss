@@ -8,4 +8,16 @@ body {
         font-style: normal;
         cursor: default;
     }
+
+    @media only screen and (min-width: 600px) {
+        h3.section-title {
+            padding: 25px 50px 25px 50px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        h3.section-title {
+            padding: 25px 125px 25px 125px;
+        }
+    }
 }
