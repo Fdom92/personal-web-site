@@ -4,7 +4,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 my-experience {
     .container-fluid {
         .row {
-            padding: 25px 50px 25px 50px;
+            padding: 25px 25px 25px 25px;
         }
     }
     .timeline {
@@ -70,7 +70,7 @@ my-experience {
         }
         .timeline-title {
             font-size: 16px;
-            font-weight: normal;            
+            font-weight: normal;
             color: #000000;
             line-height: 24px;
             margin: 0;
@@ -113,7 +113,7 @@ my-experience {
             }
         }
         .timeline-content {
-            padding: 40px 0 70px;
+            padding: 20px 0 50px;
         }
         .timeline-title {
             margin: 0;
@@ -184,7 +184,7 @@ my-experience {
                 float: right;
                 text-align: left;
                 padding-left: 30px;
-            }    
+            }
             > .timeline-item:nth-child(even) .timeline-info {
                 float: right;
                 text-align: left;
@@ -213,7 +213,7 @@ my-experience {
                 left: auto;
             }
         }
-    } 
+    }
     .marker-outline {
         .timeline-marker {
             &:before {
