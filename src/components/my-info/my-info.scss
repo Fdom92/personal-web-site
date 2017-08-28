@@ -1,20 +1,18 @@
 my-info {
     .my-info-container {
         padding: 25px 25px 25px 25px;
-        color: black;
+        color: #9a9a9a;
         line-height: 1.8em;
         cursor: default;
 
         p {
+            margin: 0;
             font-style: italic;
-            display: inline;
-            opacity: 0.6;
         }
+        
         .role {
             color: #FF6B6B;
             font-style: italic;
-            padding-left: 5px;
-            padding-right: 5px;
         }
     }
 

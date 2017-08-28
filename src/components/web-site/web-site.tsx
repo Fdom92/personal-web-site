@@ -10,13 +10,13 @@ export class WebSite {
     render() {
         return [
             <web-header></web-header>,
-            <h3 class="section-title">About me</h3>,
+            <h1 class="section-title">About me</h1>,
             <my-info></my-info>,
-            <h3 class="section-title">Portfolio</h3>,
+            <h1 class="section-title">Portfolio</h1>,
             <my-projects></my-projects>,
-            <h3 class="section-title">Work Experience</h3>,
+            <h1 class="section-title">Work Experience</h1>,
             <my-experience></my-experience>,
-            <h3 class="section-title">Hobbies</h3>,
+            <h1 class="section-title">Hobbies</h1>,
             <my-hobbies></my-hobbies>,
             <web-footer></web-footer>
         ];
