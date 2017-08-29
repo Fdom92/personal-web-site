@@ -7,11 +7,13 @@ my-info {
 
         p {
             margin: 0;
+            font-weight: 100;
             font-style: italic;
         }
-        
+
         .role {
-            color: #FF6B6B;
+            color: black;
+            font-weight: 600;
             font-style: italic;
         }
     }

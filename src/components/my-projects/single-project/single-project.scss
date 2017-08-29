@@ -27,6 +27,7 @@ single-project {
                     }
 
                     a {
+                        color: #FF6B6B;
                         cursor: pointer;
                     }
                 }
@@ -45,36 +46,9 @@ single-project {
                 white-space: nowrap;
                 margin-bottom: 5px;
                 margin-top: 5px;
-    
+
                 tech-chip {
                     padding-right: 5px;
-                }
-            }
-    
-            .more {
-                margin-top: 20px;
-                a {
-                    font-size: 12px;
-                    font-weight: 400;
-                    color: #000000;
-                    opacity: 0.6;
-                    line-height: 24px;
-                    min-height: 54px;
-                    text-decoration: none;
-                    cursor: pointer;
-
-                    i {
-                        padding-left: 5px;
-                        color: #FF6B6B;
-                    }
-
-                    &:hover {
-                        i {
-                            -webkit-animation: move 1.0s infinite;
-                            -moz-animation: move 1.0s infinite;
-                            animation: move 1.0s infinite;
-                        }
-                    }
                 }
             }
         }
@@ -83,31 +57,5 @@ single-project {
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
             transform: translateY(-5px);
         }
-    }
-    @-moz-keyframes move {
-        50% {
-            -moz-transform: translateX(5px);
-        }
-        100% { 
-            -moz-transform: translateX(0px); 
-        } 
-    }
-    @-webkit-keyframes move {
-        50% {
-            -webkit-transform: translateX(5px);
-        }
-        100% { 
-            -webkit-transform: translateX(0px); 
-        } 
-    }
-    @keyframes move {
-        50% {
-            -webkit-transform: translateX(5px);
-            transform: translateX(5px);
-        }
-        100% { 
-            -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-        } 
     }
 }

@@ -10,7 +10,7 @@ my-projects {
         grid-template-columns: 1fr 1fr;
     }
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 992px) {
         padding: 25px 125px 25px 125px;
         grid-template-columns: 1fr 1fr 1fr;
     }
