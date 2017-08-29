@@ -45,6 +45,10 @@ export class MyProjects {
                 <single-project project={project}></single-project>
             );
         });
-        return items;
+        return (
+            <div class="my-projects-container">
+                {items}
+            </div>
+        );
     }
 }
