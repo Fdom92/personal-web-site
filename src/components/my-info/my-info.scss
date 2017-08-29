@@ -1,20 +1,24 @@
 my-info {
+
+    $text: #9a9a9a;
+    $text-highlighted: #212121;
+
     .my-info-container {
         padding: 25px 25px 25px 25px;
-        color: #9a9a9a;
+        color: $text;
         line-height: 1.8em;
+        font-style: italic;
         cursor: default;
 
         p {
             margin: 0;
             font-weight: 100;
-            font-style: italic;
+            
         }
 
         .role {
-            color: black;
+            color: $text-highlighted;
             font-weight: 600;
-            font-style: italic;
         }
     }
 

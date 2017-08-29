@@ -1,6 +1,8 @@
-$primary-color: #FF6B6B;
-
 my-experience {
+    $text: #9a9a9a;
+    $text-highlighted: #212121;
+    $primary-color: #FF6B6B;
+
     .container-fluid {
         .row {
             padding: 25px 25px 25px 25px;
@@ -26,6 +28,7 @@ my-experience {
         }
     }
     .timeline-info {
+        color: $text-highlighted;
         font-size: 12px;
         font-weight: 700;
         letter-spacing: 3px;
@@ -68,9 +71,9 @@ my-experience {
             border: 3px solid $primary-color;
         }
         .timeline-title {
+            color: $text-highlighted;
             font-size: 16px;
             font-weight: normal;
-            color: #000000;
             line-height: 24px;
             margin: 0;
         }
@@ -78,10 +81,9 @@ my-experience {
     .timeline-content {
         padding-bottom: 40px;
         p {
+            color: $text;
             font-size: 14px;
             font-weight: 400;
-            color: #000000;
-            opacity: 0.6;
             line-height: 24px;
             margin: 0;
         }
@@ -115,6 +117,7 @@ my-experience {
             padding: 20px 0 50px;
         }
         .timeline-title {
+            color: $text-highlighted;
             font-size: 18px;
             margin: 0;
         }

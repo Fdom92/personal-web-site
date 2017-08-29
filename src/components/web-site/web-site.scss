@@ -1,13 +1,16 @@
 body {
+    $text-highlighted: #212121;
+
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 
     h1.section-title {
-        margin: 0;
-        padding: 25px 25px 25px 25px;
+        color: $text-highlighted;
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 24px;     
+        padding: 25px 25px 25px 25px;
+        margin: 0;
         cursor: default;
     }
 
