@@ -10,10 +10,10 @@ export class MyCv {
     render() {
         return (
             <div class="my-cv-container">
-                You can download my cv from here
-                <a href="" download>
-                    <i class="fa fa-download" aria-hidden="true"></i>
+                <a href="../assets/docs/Resume.pdf" download="resume">
+                    <img src="../assets/download.svg" alt="Download"/>
                 </a>
+                <p>Download my CV (PDF - 84Kb)</p>
             </div>
         );
     }
