@@ -16,6 +16,7 @@ export class WebSite {
             <my-projects></my-projects>,
             <h1 class="section-title">Work Experience</h1>,
             <my-experience></my-experience>,
+            <my-cv></my-cv>,
             <h1 class="section-title">Hobbies</h1>,
             <my-hobbies></my-hobbies>,
             <web-footer></web-footer>
