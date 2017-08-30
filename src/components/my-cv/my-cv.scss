@@ -12,12 +12,16 @@ my-cv {
         justify-content: center;
         background: #FF6B6B;
         color: white;
+        -webkit-transition: background-color 0.5s linear;
+        -ms-transition: background-color 0.5s linear;
+        transition: background-color 0.5s linear;
 
         a {
             height: 80px;
             width: 80px;
             margin: auto;
-
+            cursor: pointer;
+            
             img {
                 height: 80px;
                 width: 80px;
@@ -27,6 +31,11 @@ my-cv {
         p {
             padding-top: 10px;
             margin: auto;
+            cursor: default;
+        }
+
+        &:hover {
+            background: #ff4d4d;
         }
     }
 }
