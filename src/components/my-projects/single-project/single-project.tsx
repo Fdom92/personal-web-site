@@ -24,7 +24,8 @@ export class SingleProject {
                             <p>{this.project.title}</p>
                             <div class="code">
                                 <label>Code</label>
-                                <a target="_blank" href={this.project.more}>
+                                <a target="_blank" href={this.project.more} rel="noopener"
+                                title="This link opens my project code in a new tab.">
                                     <i class="fa fa-github" aria-hidden="true"></i>
                                 </a>
                             </div>
