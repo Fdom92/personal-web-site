@@ -6,7 +6,7 @@ exports.config = {
       { components: ['my-projects', 'single-project', 'tech-chip'] },
       { components: ['my-experience'] },
       { components: ['my-cv'] },
-      { components: ['my-hobbies'] },
+      { components: ['my-hobbies', 'single-hobby'] },
       { components: ['web-footer'] }
     ]
   };

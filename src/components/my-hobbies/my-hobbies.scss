@@ -3,11 +3,6 @@ my-hobbies {
         display: flex;
         justify-content: space-around;
         padding: 25px 25px 25px 25px;
-
-        img {
-            height: 64px;
-            width: 64px;
-        }
     }
 
     @media only screen and (min-width: 600px) {

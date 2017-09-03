@@ -1,4 +1,4 @@
-import { Component } from '@stencil/core';
+import { Component, State } from '@stencil/core';
 
 
 @Component({
@@ -7,14 +7,39 @@ import { Component } from '@stencil/core';
 })
 export class MyHobbies {
 
+    @State() hobbies: any = [
+        {
+            path: '../assets/travel.svg',
+            alt: 'Travel',
+        },
+        {
+            path: '../assets/water-activities.svg',
+            alt: 'Water Activities',
+        },
+        {
+            path: '../assets/snowboard.svg',
+            alt: 'Snowboard',
+        },
+        {
+            path: '../assets/coding.svg',
+            alt: 'Coding',
+        },
+        {
+            path: '../assets/films.svg',
+            alt: 'Films',
+        }
+    ];
+
     render() {
+        let items = [];
+        this.hobbies.forEach(hobby => {
+            items.push(
+                <single-hobby path={hobby.path} alt={hobby.alt}></single-hobby>
+            );
+        });
         return (
             <div class="hobbies">
-                <img src="../assets/travel.svg" alt="Travel"/>
-                <img src="../assets/water-activities.svg" alt="Water Activities"/>
-                <img src="../assets/snowboard.svg" alt="Snowboard"/>
-                <img src="../assets/coding.svg" alt="Coding"/>
-                <img src="../assets/films.svg" alt="Films"/>
+                {items}
             </div>
         );
     }
