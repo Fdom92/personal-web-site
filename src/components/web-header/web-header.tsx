@@ -10,7 +10,15 @@ export class WebHeader {
     render() {
         return (
             <header>
-                Hi! Welcome to my website
+                <img src="../assets/header.jpg" alt="Header"/>
+                <div class="quote">
+                    <p>
+                        "Opportunities don't happen,
+                    </p>
+                    <p>
+                        you create them"
+                    </p>
+                </div>
             </header>
         );
     }

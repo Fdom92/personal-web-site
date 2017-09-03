@@ -1,8 +1,43 @@
 web-header {
     header {
-        text-align: center;
-        padding: 50px 0 50px 0;
-        background: black;
-        color: white;
+        display:block;
+        position:relative;
+
+        img {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        .quote {
+            height: 100%;
+            width: 100%;
+            top: 40%;
+            left: 0;
+            position: absolute;
+            padding: 0;
+
+            p {
+                color: #FFFFFF;
+                text-align: center;
+                line-height: 2em;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 100;
+                margin: 0;
+                cursor: default;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+        header .quote p {
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        header .quote p {
+            font-size: 24px;
+        }
     }
 }
