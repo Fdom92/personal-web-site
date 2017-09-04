@@ -1,4 +1,6 @@
 my-cv {
+    $text-highlighted: #212121;
+
     .my-cv-container {
         margin: 25px 0px 25px 0px;
         padding: 20px;
@@ -11,7 +13,7 @@ my-cv {
         -webkit-justify-content: center;
         justify-content: center;
         background: #FF6B6B;
-        color: white;
+        color: $text-highlighted;
         -webkit-transition: background-color 0.5s linear;
         -ms-transition: background-color 0.5s linear;
         transition: background-color 0.5s linear;
@@ -21,7 +23,7 @@ my-cv {
             width: 80px;
             margin: auto;
             cursor: pointer;
-            
+
             img {
                 height: 80px;
                 width: 80px;
