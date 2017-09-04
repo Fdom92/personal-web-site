@@ -11,7 +11,7 @@ export class MyCv {
         return (
             <div class="my-cv-container">
                 <a href="../assets/docs/Resume.pdf" download="resume">
-                    <img src="../assets/download.svg" alt="Download"/>
+                    <st-img src="../assets/download.svg" alt="Download"/>
                 </a>
                 <p>Download my CV (PDF - 84Kb)</p>
             </div>

@@ -14,11 +14,12 @@
     "url": "git+https://github.com/Fdom92/personal-web-site.git"
   },
   "dependencies": {
-    "@stencil/core": "0.0.4"
+    "@stencil/core": "0.0.4",
+    "st-img": "0.0.5"
   },
   "devDependencies": {
-    "@stencil/dev-server": "latest",
-    "@stencil/utils": "latest"
+    "@stencil/dev-server": "0.0.16",
+    "@stencil/utils": "0.0.4"
   },
   "author": "Fernando del olmo martin",
   "license": "MIT",

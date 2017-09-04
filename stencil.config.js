@@ -8,6 +8,9 @@ exports.config = {
       { components: ['my-cv'] },
       { components: ['my-hobbies', 'single-hobby'] },
       { components: ['web-footer'] }
+    ],
+    collections: [
+      {name: 'st-img'}
     ]
   };
 

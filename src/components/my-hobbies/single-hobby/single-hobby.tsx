@@ -13,7 +13,7 @@ export class SingleHobby {
     render() {
         return (
             <div class="hobby">
-                <img src={this.path} alt={this.alt}/>
+                <st-img src={this.path} alt={this.alt}/>
                 <p>{this.alt}</p>
             </div>
         );
