@@ -35,6 +35,10 @@ single-project {
                     a {
                         color: $action;
                         cursor: pointer;
+                        img {
+                            height: 16px;
+                            width: 16px;
+                        }
                     }
                 }
             }

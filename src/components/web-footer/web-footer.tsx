@@ -15,19 +15,19 @@ export class WebFooter {
                     <div class="footer-links">
                         <a target="_blank" href="https://twitter.com/fdom92" rel="noopener"
                         title="This link opens my twitter account in a new tab.">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <img src="../assets/logos/logo-twitter.svg" alt="Twitter"/>
                         </a>
                         <a target="_blank" href="https://github.com/Fdom92/" rel="noopener"
                         title="This link opens my github account in a new tab.">
-                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <img src="../assets/logos/logo-github.svg" alt="Github"/>
                         </a>
                         <a target="_blank" href="https://linkedin.com/in/fdom92" rel="noopener"
                         title="This link opens my linkedin account in a new tab.">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <img src="../assets/logos/logo-linkedin.svg" alt="Linkedin"/>
                         </a>
                         <a target="_blank" href="https://stackoverflow.com/users/6691908/fernando-del-olmo" rel="noopener"
                         title="This link opens my stackoverflow account in a new tab.">
-                            <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            <img src="../assets/logos/logo-stackoverflow.svg" alt="Stack-overflow"/>
                         </a>
                     </div>
                 </div>
