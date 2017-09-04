@@ -32,7 +32,7 @@ export class WebFooter {
                     </div>
                 </div>
                 <div class="footer-info">
-                    © 2017 — Developed with <i class="em em-heart"></i> by Fernando Del Olmo Martín
+                    © 2017 — Developed with ❤️ by Fernando Del Olmo Martín
                 </div>
             </footer>
         );
