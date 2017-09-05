@@ -10,7 +10,7 @@ export class MyProjects {
     @State() projects: any = [
         {
             title: 'Pantrify',
-            description: 'Self learn latest Ionic and Angular versions with Firebase',
+            description: 'A new simple way to organize your pantry from your mobile device.',
             tags: [
                 'Angular',
                 'Ionic',
@@ -20,7 +20,7 @@ export class MyProjects {
         },
         {
             title: 'Progressive Weather App',
-            description: 'A PWA with latest Ionic and Angular versions hosted on Firebase',
+            description: 'A progressive web app to get all the information of the time of where you are.',
             tags: [
                 'Angular',
                 'Ionic',
@@ -30,11 +30,19 @@ export class MyProjects {
         },
         {
             title: 'Stencil Weather PWA',
-            description: 'Self learn about stenciljs',
+            description: 'A progressive web app to get information of the time using Stencil.',
             tags: [
                 'Stenciljs'
             ],
             more: 'https://github.com/Fdom92/stencil-weather-pwa'
+        },
+        {
+            title: 'Personal web site',
+            description: 'My personal web site was also made using just Stencil, it is also a PWA.',
+            tags: [
+                'Stenciljs'
+            ],
+            more: 'https://github.com/Fdom92/personal-web-site'
         }
     ];
 
