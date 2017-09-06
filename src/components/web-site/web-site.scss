@@ -1,4 +1,5 @@
 body {
+    $text: #666666;
     $text-highlighted: #212121;
 
     margin: 0;
@@ -8,10 +9,27 @@ body {
         color: $text-highlighted;
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;     
+        font-size: 24px;
         padding: 25px 25px 25px 25px;
         margin: 0;
         cursor: default;
+    }
+
+    p {
+        margin: 0;
+        font-weight: 400;
+        color: $text;
+        line-height: 1.8em;
+        cursor: default;
+
+        &.italic {
+            font-style: italic;
+        }
+
+        .highlighted {
+            color: $text-highlighted;
+            font-weight: 600;
+        }
     }
 
     @media only screen and (min-width: 600px) {

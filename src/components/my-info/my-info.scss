@@ -1,35 +1,16 @@
 my-info {
-
-    $text: #666666;
-    $text-highlighted: #212121;
-
-    .my-info-container {
+    .container {
         padding: 25px 25px 25px 25px;
-        color: $text;
-        line-height: 1.8em;
-        font-style: italic;
-        cursor: default;
-
-        p {
-            margin: 0;
-            font-weight: 400;
-
-        }
-
-        .role {
-            color: $text-highlighted;
-            font-weight: 600;
-        }
     }
 
     @media only screen and (min-width: 600px) {
-        .my-info-container {
+        .container {
             padding: 25px 50px 25px 50px;
         }
     }
 
     @media only screen and (min-width: 768px) {
-        .my-info-container {
+        .container {
             padding: 25px 125px 25px 125px;
         }
     }
