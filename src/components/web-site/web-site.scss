@@ -15,6 +15,11 @@ body {
         cursor: default;
     }
 
+    h2 {
+        color: $text-highlighted;
+        font-size: 16px;
+    }
+
     p {
         margin: 0;
         font-weight: 400;

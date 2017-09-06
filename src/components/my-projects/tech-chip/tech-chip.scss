@@ -1,18 +1,13 @@
 tech-chip {
-
-    $text: #666666;
-    $background-color: #e6e6e6;
-
     .chip {
-        font-size: 12px;
-        font-weight: 400;
-        color: $text;
-        line-height: 32px;
         display: inline-block;
-        height: 32px;
         padding: 0 12px;
         border-radius: 16px;
-        background-color: $background-color;
+        background-color: #e6e6e6;
         cursor: default;
+        p {
+            font-size: 12px;
+            line-height: 2.8em;
+        }
     }
 }

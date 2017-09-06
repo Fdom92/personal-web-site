@@ -12,7 +12,7 @@ export class TechChip {
     render() {
         return (
             <div class="chip">
-                {this.tag}
+                <p>{this.tag}</p>
             </div>
         );
     }

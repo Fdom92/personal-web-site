@@ -21,7 +21,7 @@ export class SingleProject {
                 <div class="card">
                     <div class="container">
                         <div class="title">
-                            <p>{this.project.title}</p>
+                            <h2>{this.project.title}</h2>
                             <div class="code">
                                 <label>Code</label>
                                 <a target="_blank" href={this.project.more} rel="noopener"
