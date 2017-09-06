@@ -1,13 +1,7 @@
 exports.config = {
     bundles: [
-      { components: ['web-site'] },
-      { components: ['web-header'] },
-      { components: ['my-info'] },
-      { components: ['my-projects', 'single-project', 'tech-chip'] },
-      { components: ['my-experience'] },
-      { components: ['my-cv'] },
-      { components: ['my-hobbies', 'single-hobby'] },
-      { components: ['web-footer'] }
+      { components: ['web-header', 'my-info', 'my-projects', 'my-experience', 'my-cv', 'my-hobbies', 'web-footer'] },
+      { components: ['web-site', 'single-project', 'tech-chip', 'single-hobby'] }
     ],
     collections: [
       {name: 'st-img'}

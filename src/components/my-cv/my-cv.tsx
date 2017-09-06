@@ -13,7 +13,7 @@ export class MyCv {
                 <a href="../assets/docs/Resume.pdf" download="resume">
                     <st-img src="../assets/download.svg" alt="Download"/>
                 </a>
-                <p>Download my CV (PDF - 84Kb)</p>
+                <span class="highlighted">Download my CV (PDF - 84Kb)</span>
             </div>
         );
     }
