@@ -1,5 +1,7 @@
 # Fer D. Olmo website
 
+![Logo](/docs/logo.svg)
+
 This is the repository of my website, it's a PWA (thanks to [workbox](https://github.com/GoogleChrome/workbox)) made using [Stenciljs](https://github.com/ionic-team/stencil) from @ionic-team and hosted on @firebase.
 
 ## Website
