@@ -5,7 +5,12 @@ exports.config = {
     ],
     collections: [
       {name: 'st-img'}
-    ]
+    ],
+    serviceWorker: {
+      globPatterns: [
+        '**/*.{js,css,json,html,ico,png,svg,jpg}'
+      ]
+    }
   };
 
   exports.devServer = {

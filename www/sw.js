@@ -31,6 +31,10 @@ const fileManifest = [
     "revision": "63bda8f46cf831cc63701e8cff08f08d"
   },
   {
+    "url": "assets/header.jpg",
+    "revision": "713ae9e38fc9adbc4ee641a63b160385"
+  },
+  {
     "url": "assets/logos/logo-github-2.svg",
     "revision": "9a5bc9c9270ce1527128a56ff826893c"
   },
