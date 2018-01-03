@@ -1,4 +1,4 @@
-importScripts('workbox-sw.prod.v2.0.0.js');
+importScripts('workbox-sw.prod.v2.1.2.js');
 
 /**
  * DO NOT EDIT THE FILE MANIFEST ENTRY
@@ -23,16 +23,32 @@ const fileManifest = [
     "revision": "13a300397432b420301962aa127c4744"
   },
   {
-    "url": "assets/docs/Resume.pdf",
-    "revision": "63037a81ee5577f043ed96ef1e3b73bc"
-  },
-  {
     "url": "assets/download.svg",
-    "revision": "182f7681341f2cecd070e87e470510c8"
+    "revision": "4f2db87e70849e4cfb0bbcc7e1d0b931"
   },
   {
     "url": "assets/films.svg",
     "revision": "63bda8f46cf831cc63701e8cff08f08d"
+  },
+  {
+    "url": "assets/logos/logo-github-2.svg",
+    "revision": "9a5bc9c9270ce1527128a56ff826893c"
+  },
+  {
+    "url": "assets/logos/logo-github.svg",
+    "revision": "dec21930a1a4f59520b5c55bff21dc6f"
+  },
+  {
+    "url": "assets/logos/logo-linkedin.svg",
+    "revision": "ead617bce8a131dfcc0af005ee2d1360"
+  },
+  {
+    "url": "assets/logos/logo-stackoverflow.svg",
+    "revision": "ff6506d6e113714443bb226772461602"
+  },
+  {
+    "url": "assets/logos/logo-twitter.svg",
+    "revision": "0821bcb236d51acdb29d544d82fd95f8"
   },
   {
     "url": "assets/snowboard.svg",
@@ -47,90 +63,65 @@ const fileManifest = [
     "revision": "3d748a9e07961cb1fbf9bdf91fea31ae"
   },
   {
-    "url": "components/my-cv/my-cv.scss",
-    "revision": "9ed6daa168259f79b9a94152d97cf331"
+    "url": "build/app.js",
+    "revision": "1388fbfdf187c0aa191cb6bb105daf13"
   },
   {
-    "url": "components/my-cv/my-cv.tsx",
-    "revision": "5ee66eb9b3f5f2aef30a49c02a69e81f"
+    "url": "build/app/app.07jca59v.js",
+    "revision": "c05c386ec1a6d994867e77476d93f930"
   },
   {
-    "url": "components/my-experience/my-experience.scss",
-    "revision": "34b733531bfdbf3cfbbe1559d85c4625"
+    "url": "build/app/app.4mksua9n.js",
+    "revision": "7a1eb6ccf88ed3644b31f6246868a61f"
   },
   {
-    "url": "components/my-experience/my-experience.tsx",
-    "revision": "4fa80d6644f28e6b3bb13382b73210f6"
+    "url": "build/app/app.cztcwfin.js",
+    "revision": "0344175d6dd5c9d9c1394b46aae92a92"
   },
   {
-    "url": "components/my-hobbies/my-hobbies.scss",
-    "revision": "9f8694b490c9fdcfd358343da9e0c0ff"
+    "url": "build/app/app.registry.json",
+    "revision": "f5fef1d952cbc94400c8502feae8f529"
   },
   {
-    "url": "components/my-hobbies/my-hobbies.tsx",
-    "revision": "d42f47029367febf4320659fb2d51953"
+    "url": "build/app/ebubsyau.js",
+    "revision": "6af764af691b9065479b3ba284f1295e"
   },
   {
-    "url": "components/my-info/my-info.scss",
-    "revision": "35f87a6c0ee8c80701ff192419ada72d"
+    "url": "build/app/eow5lcoo.js",
+    "revision": "f24268830b1ccdf6f62a6e33e823061b"
   },
   {
-    "url": "components/my-info/my-info.tsx",
-    "revision": "7caef22ccf63089a11e6d7e015554c13"
+    "url": "build/app/ftcx4qp9.js",
+    "revision": "8d508b64445e2967b56a6a0fc6a335b7"
   },
   {
-    "url": "components/my-projects/my-projects.scss",
-    "revision": "4b17765c911ea1429adcdd5e9472341c"
+    "url": "build/app/ogpw3fyc.js",
+    "revision": "43d743807b35ab13655f89d29f8c5624"
   },
   {
-    "url": "components/my-projects/my-projects.tsx",
-    "revision": "27edeb0df5c261054c71ef5366daf83c"
+    "url": "build/app/qa7bwh1k.js",
+    "revision": "b45a5e320bf3e3694aef51e1cc2888cc"
   },
   {
-    "url": "components/my-projects/single-project/single-project.scss",
-    "revision": "3e248ad4184b573c8245e99af8224b8f"
-  },
-  {
-    "url": "components/my-projects/single-project/single-project.tsx",
-    "revision": "187c690ac04f2da339d5cdd2203b0598"
-  },
-  {
-    "url": "components/my-projects/tech-chip/tech-chip.scss",
-    "revision": "e496d8281bb4c0604cdc4cb5973973ef"
-  },
-  {
-    "url": "components/my-projects/tech-chip/tech-chip.tsx",
-    "revision": "a85eabcff4993594012a74f9985a5729"
-  },
-  {
-    "url": "components/web-footer/web-footer.scss",
-    "revision": "33baedc41555d5426d2f64fc8b8d1654"
-  },
-  {
-    "url": "components/web-footer/web-footer.tsx",
-    "revision": "fc2551c3eb584d89c6783e734ee0c9c1"
-  },
-  {
-    "url": "components/web-header/web-header.scss",
-    "revision": "7464a670438cf6f6f35643611d0074ea"
-  },
-  {
-    "url": "components/web-header/web-header.tsx",
-    "revision": "5a3471dc1b6f858a6611c6ce938e4e59"
-  },
-  {
-    "url": "components/web-site/web-site.scss",
-    "revision": "318aa49f756a09fa0cd74f96af2daebf"
-  },
-  {
-    "url": "components/web-site/web-site.tsx",
-    "revision": "e67c8f7a8cb24eda4c9fb5f1e21c4b58"
+    "url": "build/app/vwqw6bmh.js",
+    "revision": "c2a68a0692fe1e5e202aac8740669e7c"
   },
   {
     "url": "index.html",
-    "revision": "67f061ec75075cace3f7f6d04cb9420b"
+    "revision": "23936bf43f0128e4357dc63fc7b03d0c"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "ba52059eba040aa742b249ba82d6b5a5"
+  },
+  {
+    "url": "workbox-sw.prod.v2.0.0.js",
+    "revision": "7b6749c71e3ba8b786ce6cb65e248ac8"
   }
 ];
 
-const workboxSW = new self.WorkboxSW();
+const workboxSW = new self.WorkboxSW({
+  "skipWaiting": true,
+  "clientsClaim": true
+});
 workboxSW.precache(fileManifest);

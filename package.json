@@ -14,7 +14,7 @@
     "url": "git+https://github.com/Fdom92/personal-web-site.git"
   },
   "dependencies": {
-    "@stencil/core": "0.0.4",
+    "@stencil/core": "0.1.1-0",
     "st-img": "0.0.5"
   },
   "devDependencies": {
