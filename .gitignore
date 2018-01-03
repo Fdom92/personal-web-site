@@ -1,8 +1,5 @@
 .DS_store
 
-.branchsite/
-
-dist/
 www/build
 www/assets
 www/index.html
