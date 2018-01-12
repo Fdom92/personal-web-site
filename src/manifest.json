@@ -1,0 +1,13 @@
+{
+    "name": "Fdom site",
+    "short_name": "Fdom",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [{
+      "src": "img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+    "background_color": "#16161d",
+    "theme_color": "#16161d"
+  }

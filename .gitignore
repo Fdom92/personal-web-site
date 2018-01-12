@@ -1,7 +1,4 @@
 .DS_store
 
-www/build
-www/assets
-www/index.html
-
 node_modules/
+www/
