@@ -22,6 +22,16 @@ export class MyExperience {
                             </li>
                             <li class="timeline-item">
                                 <div class="timeline-info">
+                                    <span>November</span>
+                                </div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">Webjunto - Software Engineer</h3>
+                                    <p>Working on projects using Angular and Ionic</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item">
+                                <div class="timeline-info">
                                     <span>October</span>
                                 </div>
                                 <div class="timeline-marker"></div>

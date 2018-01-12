@@ -17,15 +17,17 @@ single-project {
                 }
                 .code {
                     float: right;
+                    display: flex;
                     label {
                         font-size: 16px;
                         font-weight: 300;
                         line-height: 32px;
                         padding-right: 5px;
                     }
-                    img {
+                    st-img {
                         height: 16px;
                         width: 16px;
+                        padding-top: 5px;
                     }
                 }
             }
