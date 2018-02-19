@@ -1,33 +1,26 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/YYPcyY
- */
+importScripts('workbox-v3.0.0-alpha.3/workbox-sw.js')
 
+self.workbox.skipWaiting();
+self.workbox.clientsClaim();
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0-alpha.3/workbox-sw.js");
+/*
+  This is our code to handle push events.
+*/
+self.addEventListener('push', (event) => {
+  console.log('[Service Worker] Push Received.');
+  console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
 
+  const title = 'Push Notification';
+  const options = {
+    body: `${event.data.text()}`,
+    icon: 'images/icon.png',
+    badge: 'images/badge.png'
+  };
 
+  event.waitUntil(self.registration.showNotification(title, options));
+});
 
-
-
-
-
-
-
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
-self.__precacheManifest = [
+self.workbox.precaching.precacheAndRoute([
   {
     "url": "assets/coding.svg",
     "revision": "13a300397432b420301962aa127c4744"
@@ -39,10 +32,6 @@ self.__precacheManifest = [
   {
     "url": "assets/films.svg",
     "revision": "63bda8f46cf831cc63701e8cff08f08d"
-  },
-  {
-    "url": "assets/header.jpg",
-    "revision": "713ae9e38fc9adbc4ee641a63b160385"
   },
   {
     "url": "assets/logos/logo-github-2.svg",
@@ -77,16 +66,67 @@ self.__precacheManifest = [
     "revision": "3d748a9e07961cb1fbf9bdf91fea31ae"
   },
   {
+    "url": "build/app.js",
+    "revision": "089f2e044070fc60ec7d4725f5dc6c5f"
+  },
+  {
+    "url": "build/app/8jkmuhvn.es5.js",
+    "revision": "f9f2798a8d0515cab5592ab5da5ef3c1"
+  },
+  {
+    "url": "build/app/8jkmuhvn.js",
+    "revision": "6d62374e1dafb39b8629f51126f0158e"
+  },
+  {
+    "url": "build/app/app.05sflprh.js",
+    "revision": "27481c29ff583123d90a75b2a69ef0ac"
+  },
+  {
+    "url": "build/app/app.imsx6h7z.js",
+    "revision": "602dc2fa388f63ac6e6cc15cd553420a"
+  },
+  {
+    "url": "build/app/app.registry.json",
+    "revision": "7dc5456e0d5d6e8c4d690f57019b11a0"
+  },
+  {
+    "url": "build/app/bsr4ofe1.es5.js",
+    "revision": "c9d616ca4692cd9aa0f363e49a8b1af8"
+  },
+  {
+    "url": "build/app/bsr4ofe1.js",
+    "revision": "434524aa964cb1cb45604d6aa1ec84fd"
+  },
+  {
+    "url": "build/app/bsr4ofe1.sc.es5.js",
+    "revision": "c9d616ca4692cd9aa0f363e49a8b1af8"
+  },
+  {
+    "url": "build/app/bsr4ofe1.sc.js",
+    "revision": "dd5c5dd97844c1383509bbb23bca5976"
+  },
+  {
+    "url": "build/app/i99qlibd.es5.js",
+    "revision": "b3494b78b4ce8f9e3d2b9f6cee54c2b2"
+  },
+  {
+    "url": "build/app/i99qlibd.js",
+    "revision": "ce8234a6c5717ea12850d0f9834c84b6"
+  },
+  {
+    "url": "build/app/u9njwtv9.es5.js",
+    "revision": "873afac8e65f030535f680cc894f87b9"
+  },
+  {
+    "url": "build/app/u9njwtv9.js",
+    "revision": "2c183d0748f6f22a9dbbc17f4caa1b62"
+  },
+  {
     "url": "index.html",
-    "revision": "511fd6501eba394b062ea15729dcde54"
+    "revision": "a9eb1b738a0f4a3674dcdcf7a281766b"
   },
   {
     "url": "manifest.json",
     "revision": "ba52059eba040aa742b249ba82d6b5a5"
   }
-].concat(self.__precacheManifest || []);
-
-if (Array.isArray(self.__precacheManifest)) {
-  workbox.precaching.suppressWarnings();
-  workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-}
+]);

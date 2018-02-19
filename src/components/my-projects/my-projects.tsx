@@ -22,9 +22,17 @@ export class MyProjects {
             title: 'Personal web site',
             description: 'My personal web site was also made using just Stencil, it is also a PWA.',
             tags: [
-                'Stenciljs'
+                'Stenciljs', 'PWA'
             ],
             more: 'https://github.com/Fdom92/personal-web-site'
+        },
+        {
+            title: 'Anidb',
+            description: 'A PWA to search information about your favorites animes',
+            tags: [
+                'Stenciljs', 'PWA'
+            ],
+            more: 'https://github.com/Fdom92/anidb'
         }
     ];
 

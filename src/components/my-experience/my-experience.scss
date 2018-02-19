@@ -77,6 +77,22 @@ my-experience {
             font-weight: normal;
             line-height: 24px;
             margin: 0;
+
+            a {
+                margin-left: 5px;                    
+                text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+                text-decoration: none;
+                background-image: linear-gradient($primary-color 50%, $primary-color 50%);
+                background-size: 10000px 1px;
+                color: $primary-color;
+                background-repeat: no-repeat;
+                background-position: 0 1em;
+                background-position: -10000px 1em;
+                &:hover {
+                    background-position: 0 1em;
+                    transition: background-position 2s ease-in-out;
+                }           
+            }
         }
     }
     .timeline-content {

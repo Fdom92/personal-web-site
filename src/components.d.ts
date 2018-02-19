@@ -7,12 +7,21 @@
 import 'st-img';
 
 
+declare global {
+  interface HTMLStencilElement extends HTMLElement {
+    componentOnReady(): Promise<this>;
+    componentOnReady(done: (ele?: this) => void): void;
+  }
+}
+
+
+
 import {
   MyCv as MyCv
 } from './components/my-cv/my-cv';
 
 declare global {
-  interface HTMLMyCvElement extends MyCv, HTMLElement {
+  interface HTMLMyCvElement extends MyCv, HTMLStencilElement {
   }
   var HTMLMyCvElement: {
     prototype: HTMLMyCvElement;
@@ -42,7 +51,7 @@ import {
 } from './components/my-experience/my-experience';
 
 declare global {
-  interface HTMLMyExperienceElement extends MyExperience, HTMLElement {
+  interface HTMLMyExperienceElement extends MyExperience, HTMLStencilElement {
   }
   var HTMLMyExperienceElement: {
     prototype: HTMLMyExperienceElement;
@@ -72,7 +81,7 @@ import {
 } from './components/my-hobbies/my-hobbies';
 
 declare global {
-  interface HTMLMyHobbiesElement extends MyHobbies, HTMLElement {
+  interface HTMLMyHobbiesElement extends MyHobbies, HTMLStencilElement {
   }
   var HTMLMyHobbiesElement: {
     prototype: HTMLMyHobbiesElement;
@@ -102,7 +111,7 @@ import {
 } from './components/my-hobbies/single-hobby/single-hobby';
 
 declare global {
-  interface HTMLSingleHobbyElement extends SingleHobby, HTMLElement {
+  interface HTMLSingleHobbyElement extends SingleHobby, HTMLStencilElement {
   }
   var HTMLSingleHobbyElement: {
     prototype: HTMLSingleHobbyElement;
@@ -133,7 +142,7 @@ import {
 } from './components/my-info/my-info';
 
 declare global {
-  interface HTMLMyInfoElement extends MyInfo, HTMLElement {
+  interface HTMLMyInfoElement extends MyInfo, HTMLStencilElement {
   }
   var HTMLMyInfoElement: {
     prototype: HTMLMyInfoElement;
@@ -163,7 +172,7 @@ import {
 } from './components/my-projects/my-projects';
 
 declare global {
-  interface HTMLMyProjectsElement extends MyProjects, HTMLElement {
+  interface HTMLMyProjectsElement extends MyProjects, HTMLStencilElement {
   }
   var HTMLMyProjectsElement: {
     prototype: HTMLMyProjectsElement;
@@ -193,7 +202,7 @@ import {
 } from './components/my-projects/single-project/single-project';
 
 declare global {
-  interface HTMLSingleProjectElement extends SingleProject, HTMLElement {
+  interface HTMLSingleProjectElement extends SingleProject, HTMLStencilElement {
   }
   var HTMLSingleProjectElement: {
     prototype: HTMLSingleProjectElement;
@@ -223,7 +232,7 @@ import {
 } from './components/my-projects/tech-chip/tech-chip';
 
 declare global {
-  interface HTMLTechChipElement extends TechChip, HTMLElement {
+  interface HTMLTechChipElement extends TechChip, HTMLStencilElement {
   }
   var HTMLTechChipElement: {
     prototype: HTMLTechChipElement;
@@ -253,7 +262,7 @@ import {
 } from './components/web-footer/web-footer';
 
 declare global {
-  interface HTMLWebFooterElement extends WebFooter, HTMLElement {
+  interface HTMLWebFooterElement extends WebFooter, HTMLStencilElement {
   }
   var HTMLWebFooterElement: {
     prototype: HTMLWebFooterElement;
@@ -283,7 +292,7 @@ import {
 } from './components/web-header/web-header';
 
 declare global {
-  interface HTMLWebHeaderElement extends WebHeader, HTMLElement {
+  interface HTMLWebHeaderElement extends WebHeader, HTMLStencilElement {
   }
   var HTMLWebHeaderElement: {
     prototype: HTMLWebHeaderElement;
@@ -313,7 +322,7 @@ import {
 } from './components/web-site/web-site';
 
 declare global {
-  interface HTMLWebSiteElement extends WebSite, HTMLElement {
+  interface HTMLWebSiteElement extends WebSite, HTMLStencilElement {
   }
   var HTMLWebSiteElement: {
     prototype: HTMLWebSiteElement;
@@ -337,3 +346,4 @@ declare global {
   }
 }
 
+declare global { namespace JSX { interface StencilJSX {} } }
