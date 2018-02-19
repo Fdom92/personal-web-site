@@ -15,17 +15,19 @@ my-cv {
         -webkit-transition: background-color 0.5s linear;
         -ms-transition: background-color 0.5s linear;
         transition: background-color 0.5s linear;
-
-        st-img {
-            height: 80px;
-            width: 80px;
+        a {
+            text-decoration: none;
+            color: black;
+            st-img {
+                margin: auto;
+                height: 80px;
+                width: 80px;
+            }
+            span {
+                padding-top: 10px;
+                cursor: default;
+            }
         }
-
-        span {
-            padding-top: 10px;
-            cursor: default;
-        }
-
         &:hover {
             background: #ff4d4d;
         }
