@@ -25,7 +25,7 @@ export class SingleProject {
                 <label>Code</label>
                 <a target="_blank" href={this.project.more} rel="noopener"
                 title="This link opens my project code in a new tab.">
-                  <lazy-img src="../assets/logos/logo-github-2.svg" alt="Github"/>
+                  <lazy-img src="../assets/logo-github-2.svg" alt="Github"/>
                 </a>
               </div>
             </div>
