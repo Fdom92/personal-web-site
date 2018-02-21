@@ -1,22 +1,22 @@
 my-projects {
-    .my-projects-container {
-        display: grid;
-        padding: 25px 25px 25px 25px;
-        grid-template-columns: 1fr;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-    
-        @media only screen and (min-width: 600px) {
-            padding: 25px 50px 25px 50px;
-            grid-template-columns: 1fr 1fr;
-        }
-    
-        @media only screen and (min-width: 768px) {
-            padding: 25px 125px 25px 125px;
-        }
+  .my-projects-container {
+    display: grid;
+    padding: 25px 25px 25px 25px;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 
-        @media only screen and (min-width: 992px) {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+    @media only screen and (min-width: 600px) {
+      padding: 25px 50px 25px 50px;
+      grid-template-columns: 1fr 1fr;
     }
+
+    @media only screen and (min-width: 768px) {
+      padding: 25px 125px 25px 125px;
+    }
+
+    @media only screen and (min-width: 992px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 }

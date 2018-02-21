@@ -1,19 +1,19 @@
 my-hobbies {
+  .hobbies {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 25px 25px 25px;
+  }
+
+  @media only screen and (min-width: 600px) {
     .hobbies {
-        display: flex;
-        justify-content: space-around;
-        padding: 25px 25px 25px 25px;
+      padding: 25px 50px 25px 50px;
     }
+  }
 
-    @media only screen and (min-width: 600px) {
-        .hobbies {
-            padding: 25px 50px 25px 50px;
-        }
+  @media only screen and (min-width: 768px) {
+    .hobbies {
+      padding: 25px 125px 25px 125px;
     }
-
-    @media only screen and (min-width: 768px) {
-        .hobbies {
-            padding: 25px 125px 25px 125px;
-        }
-    }
+  }
 }
