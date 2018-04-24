@@ -11,7 +11,7 @@ export class MyCv {
       <div class="my-cv-container">
         <a href="../assets/Resume.pdf" download="resume">
           <lazy-img src="../assets/download.svg" alt="Download"/>
-          <span class="highlighted">Download my CV (PDF - 84Kb)</span>
+          <span class="highlighted">Download my CV (PDF - 80Kb)</span>
         </a>
       </div>
     );

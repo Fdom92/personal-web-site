@@ -13,7 +13,27 @@ export class MyExperience {
                 <div class="row example-basic">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
                         <ul class="timeline">
-                        <li class="timeline-item period">
+                            <li class="timeline-item period">
+                                <div class="timeline-info"></div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h2 class="timeline-title">2018</h2>
+                                </div>
+                            </li>
+                            <li class="timeline-item">
+                                <div class="timeline-info">
+                                    <span>March</span>
+                                </div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">
+                                        Software Engineer at
+                                        <a class="timeline-link" href="http://openforge.io/">Openforge</a>
+                                    </h3>
+                                    <p>Work in big projects remotely to USA companies using AngularJS, Angular 2+, Ionic 1, Ionic 2+, Ngrx and firebase.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item period">
                                 <div class="timeline-info"></div>
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
@@ -30,7 +50,7 @@ export class MyExperience {
                                         Software Engineer at
                                         <a class="timeline-link" href="http://webjunto.com/">Webjunto</a>
                                     </h3>
-                                    <p>Working on projects using Angular and Ionic</p>
+                                    <p>Work in big projects remotely to USA companies using AngularJS, Angular 2+, Ionic 1, Ionic 2+, Ngrx and firebase.</p>
                                 </div>
                             </li>
                             <li class="timeline-item period">
