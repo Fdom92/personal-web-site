@@ -1,7 +1,5 @@
 import '@stencil/router';
-import '@ionic/core';
-import { Component, Prop, Listen } from '@stencil/core';
-import { ToastController } from '@ionic/core';
+import { Component } from '@stencil/core';
 
 @Component({
     tag: 'web-site',
@@ -9,23 +7,10 @@ import { ToastController } from '@ionic/core';
 })
 export class WebSite {
 
-  @Prop({ connect: 'ion-toast-controller' }) toastCtrl: ToastController;
-
   componentDidLoad() {
     window.addEventListener('swUpdate', () => {
-      this.toastCtrl.create({
-        message: 'New version available',
-        showCloseButton: true,
-        closeButtonText: 'Reload'
-      }).then((toast) => {
-        toast.present();
-      });
+      window.location.reload();
     })
-  }
-
-  @Listen('body:ionToastWillDismiss')
-  reload() {
-    window.location.reload();
   }
 
   render() {

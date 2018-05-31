@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://fdom-website.firebaseapp.com/assets/sitemap.xml

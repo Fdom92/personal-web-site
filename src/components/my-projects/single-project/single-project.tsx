@@ -6,7 +6,7 @@ import { Component, Prop } from '@stencil/core';
 })
 export class SingleProject {
 
-  @Prop() project;
+  @Prop() project: any;
 
   render() {
     if (this.project){

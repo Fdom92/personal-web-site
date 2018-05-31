@@ -6,7 +6,7 @@ import { Component, Prop } from '@stencil/core';
 })
 export class TechChip {
 
-  @Prop() tag;
+  @Prop() tag: string;
 
   render() {
     return (
