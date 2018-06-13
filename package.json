@@ -20,8 +20,8 @@
     "url": "git+https://github.com/Fdom92/personal-web-site.git"
   },
   "dependencies": {
-    "@stencil/core": "^0.9.6",
-    "@stencil/router": "^0.2.0"
+    "@stencil/core": "^0.9.7",
+    "@stencil/router": "^0.2.1"
   },
   "devDependencies": {
     "@stencil/dev-server": "0.0.18",
