@@ -30,7 +30,7 @@ export class MyExperience {
                                         Software Engineer at
                                         <a class="timeline-link" href="http://openforge.io/">Openforge</a>
                                     </h3>
-                                    <p>Work in big projects remotely to USA companies using AngularJS, Angular 2+, Ionic 1, Ionic 2+, Ngrx and firebase.</p>
+                                    <p>Working remotely to USA using Angular, Ionic, Stencil, Capacitor, Ngrx and Firebase.</p>
                                 </div>
                             </li>
                             <li class="timeline-item period">
@@ -50,7 +50,7 @@ export class MyExperience {
                                         Software Engineer at
                                         <a class="timeline-link" href="http://webjunto.com/">Webjunto</a>
                                     </h3>
-                                    <p>Work in big projects remotely to USA companies using AngularJS, Angular 2+, Ionic 1, Ionic 2+, Ngrx and firebase.</p>
+                                    <p>Working remotely to USA using AngularJS, Angular 2+, Ionic 1, Ionic 2+, Ngrx and firebase.</p>
                                 </div>
                             </li>
                             <li class="timeline-item period">
