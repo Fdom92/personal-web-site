@@ -10,7 +10,6 @@ export const config: Config = {
             type: 'www',
             baseUrl: 'https://ferolmo.com/',
             serviceWorker: {
-                swSrc: 'src/sw.js',
                 globPatterns: [
                     '**/*.{js,css,json,html,ico,png,jpeg}'
                 ],
