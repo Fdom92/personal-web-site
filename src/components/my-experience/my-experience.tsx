@@ -28,7 +28,7 @@ export class MyExperience {
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">
                                         Software Engineer at
-                                        <a class="timeline-link" href="http://openforge.io/">Openforge</a>
+                                        <a class="timeline-link" href="https://openforge.io/">Openforge</a>
                                     </h3>
                                     <p>Working remotely to USA using Angular, Ionic, Stencil, Capacitor, Ngrx and Firebase.</p>
                                 </div>
@@ -82,7 +82,7 @@ export class MyExperience {
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">
                                         Frontend Developer at
-                                        <a class="timeline-link" href="http://www.soprasteria.es/es">Sopra Steria</a>
+                                        <a class="timeline-link" href="https://www.soprasteria.es">Sopra Steria</a>
                                     </h3>
                                     <p>Development of the mobile app for sanitas, this app was developed using
                                         Ionic v1, AngularJS, SASS to generate the CSS Styles and gulp to automate tasks.</p>

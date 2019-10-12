@@ -16,4 +16,10 @@ my-hobbies {
       padding: 25px 125px 25px 125px;
     }
   }
+
+  @media only screen and (min-width: 992px) {
+    .hobbies {
+      padding: 25px 125px 25px 125px;
+    }
+  }
 }

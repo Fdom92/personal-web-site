@@ -32,20 +32,11 @@ export class MyProjects {
       more: 'https://github.com/Fdom92/stencil-snippets'
     },
     {
-      title: 'Payment Web Component',
-      description: 'Payment request API implementation in Stenciljs',
-      tags: [
-          'WebComponent', 'Stenciljs'
-      ],
-      more: 'https://github.com/Fdom92/stencil-payment'
-    },
-    {
-      title: 'Voice 2 Text Web Component',
-      description: 'A webcomponent built with stencil to convert audio into text',
-      tags: [
-          'WebComponent', 'Stenciljs'
-      ],
-      more: 'https://github.com/Fdom92/stencil-voice2text'
+      title: 'More Projects',
+      description: 'See more projects on my github account',
+      tags: [],
+      more: 'https://github.com/Fdom92/',
+      lastCard: true
     }
   ];
 

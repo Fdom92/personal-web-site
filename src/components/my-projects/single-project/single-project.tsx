@@ -22,7 +22,7 @@ export class SingleProject {
             <div class="title">
               <h2>{this.project.title}</h2>
               <div class="code">
-                <label>Code</label>
+                { !this.project.lastCard ? (<label>Code</label>) : null }
                 <a target="_blank" href={this.project.more} rel="noopener"
                 title="This link opens my project code in a new tab.">
                   <lazy-img src="../assets/logo-github-2.svg" alt="Github"/>

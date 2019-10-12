@@ -18,14 +18,6 @@ export class MyHobbies {
     {
       path: '../assets/snowboard.svg',
       alt: 'Snowboard',
-    },
-    {
-      path: '../assets/coding.svg',
-      alt: 'Coding',
-    },
-    {
-      path: '../assets/films.svg',
-      alt: 'Films',
     }
   ];
 
