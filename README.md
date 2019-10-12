@@ -6,8 +6,7 @@ This is the repository of my website, it's a PWA (thanks to [workbox](https://gi
 
 ## Website
 
-At the moment the url is
-https://fdom-website.firebaseapp.com/  i'll buy a domain soon.
+https://ferolmo.com/
 
 ## Lighthouse
 
