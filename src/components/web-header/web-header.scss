@@ -1,7 +1,8 @@
 web-header {
   header {
-    display:block;
-    position:relative;
+    display: flex;
+    justify-content: center;
+    position: relative;
 
     img {
       position: relative;
@@ -9,15 +10,14 @@ web-header {
       height: auto;
     }
     .quote {
-      height: 100%;
-      width: 100%;
       top: 40%;
-      left: 0;
       position: absolute;
-      padding: 0;
+      padding: 16px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 5px;
 
       p {
-        color: #FFFFFF;
+        color: #212121;
         text-align: center;
         line-height: 2em;
         font-size: 16px;
@@ -27,17 +27,45 @@ web-header {
         cursor: default;
       }
     }
-  }
 
-  @media only screen and (min-width: 600px) {
-    header .quote p {
-      font-size: 20px;
+    @media only screen and (min-width: 320px) {
+      .quote {
+        top: 20%;
+        padding: 8px;
+        p {
+          font-size: 14px;
+        }
+      }
     }
-  }
 
-  @media only screen and (min-width: 768px) {
-    header .quote p {
-      font-size: 24px;
+    @media only screen and (min-width: 460px) {
+      .quote {
+        top: 25%;
+        padding: 10px;
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 600px) {
+      .quote {
+        top: 40%;
+        padding: 16px;
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      .quote {
+        top: 40%;
+        padding: 16px;
+        p {
+          font-size: 24px;
+        }
+      }
     }
   }
 }
