@@ -10,7 +10,7 @@ export class MyInfo {
     return (
       <div class="container">
         <p class="italic">I'm a
-          <span class="highlighted"> Front-end and Web developer </span>
+          <span class="highlighted"> Software  Engineer </span>
             based on
             <span class="highlighted"> Madrid</span>.
             I studied computer engineering degree and learned by myself the technologies
