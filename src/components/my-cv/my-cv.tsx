@@ -9,9 +9,9 @@ export class MyCv {
   render() {
     return (
       <div class="my-cv-container">
-        <a href="../assets/Resume.pdf" download="resume">
+        <a href="../assets/Fernando_del_Olmo_CV.pdf" download="Fernando_del_Olmo_CV">
           <lazy-img src="../assets/download.svg" alt="Download"/>
-          <span class="highlighted">Download my CV (PDF - 80Kb)</span>
+          <span class="highlighted">Download my CV (PDF - 95Kb)</span>
         </a>
       </div>
     );

@@ -17,20 +17,40 @@ export class MyExperience {
                                 <div class="timeline-info"></div>
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
-                                    <h2 class="timeline-title">2018</h2>
+                                    <h2 class="timeline-title">2020</h2>
                                 </div>
                             </li>
                             <li class="timeline-item">
                                 <div class="timeline-info">
-                                    <span>March</span>
+                                    <span>January</span>
                                 </div>
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">
                                         Software Engineer at
-                                        <a class="timeline-link" href="https://openforge.io/">Openforge</a>
+                                        <a class="timeline-link" href="https://www.startupwars.com/">Startup Wars</a>
                                     </h3>
-                                    <p>Working remotely to USA using Angular, Ionic, Stencil, Capacitor, Ngrx and Firebase.</p>
+                                    <p>Jan 2020 – Present. Part of a fully remote team building a competitive strategy platform for entrepreneurs, using Angular, Ionic, Firebase, NGXS and NodeJS.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item period">
+                                <div class="timeline-info"></div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h2 class="timeline-title">2018</h2>
+                                </div>
+                            </li>
+                            <li class="timeline-item">
+                                <div class="timeline-info">
+                                    <span>April</span>
+                                </div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">
+                                        Software Engineer at
+                                        <a class="timeline-link" href="https://openforge.io/">OpenForge</a>
+                                    </h3>
+                                    <p>Apr 2018 – Present. Managing the full development lifecycle of client projects, building cross-platform mobile and web apps with Angular, Ionic, Firebase, NGXS, Capacitor, Stencil and NodeJS.</p>
                                 </div>
                             </li>
                             <li class="timeline-item period">
@@ -50,7 +70,7 @@ export class MyExperience {
                                         Software Engineer at
                                         <a class="timeline-link" href="http://webjunto.com/">Webjunto</a>
                                     </h3>
-                                    <p>Working remotely to USA using AngularJS, Angular 2+, Ionic 1, Ionic 2+, Ngrx and firebase.</p>
+                                    <p>Assisted in the full development lifecycle of web products, working remotely for USA using Angular, Ionic, Firebase, NGXS, Capacitor, Stencil and NodeJS.</p>
                                 </div>
                             </li>
                             <li class="timeline-item period">
@@ -120,8 +140,26 @@ export class MyExperience {
                                         Frontend Developer at
                                         <a class="timeline-link" href="https://www.altran.com/es/es/">Altran</a>
                                     </h3>
-                                    <p>Analysis and Programming mobile tools in internal projects.
-                                        This projects was made by Cordova, HTML5, Javascript and CSS.</p>
+                                    <p>Development of internal mobile tools using Apache Cordova, HTML5, JavaScript and CSS.</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item period">
+                                <div class="timeline-info"></div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h2 class="timeline-title">2014</h2>
+                                </div>
+                            </li>
+                            <li class="timeline-item">
+                                <div class="timeline-info">
+                                    <span>October</span>
+                                </div>
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">
+                                        Software Developer at Taalk
+                                    </h3>
+                                    <p>Built a real-time collaborative language learning platform using Python, Django, JavaScript, jQuery and Socket.io.</p>
                                 </div>
                             </li>
                         </ul>

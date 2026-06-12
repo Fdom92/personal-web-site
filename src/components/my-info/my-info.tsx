@@ -10,13 +10,18 @@ export class MyInfo {
     return (
       <div class="container">
         <p class="italic">I'm a
-          <span class="highlighted"> Software  Engineer </span>
-            based on
-            <span class="highlighted"> Madrid</span>.
-            I studied computer engineering degree and learned by myself the technologies
-            i use now to work like Angular and Ionic. I'm interested in everything
-            related to the web, mostly Web Components and Progressive Web Apps and
-            i like to learn new things constantly and try them in side projects.
+          <span class="highlighted"> Senior Software Engineer </span>
+            based in
+            <span class="highlighted"> Madrid</span> with 10+ years of experience
+            building scalable web and mobile applications in fully remote,
+            international environments. Deep expertise in Angular, Ionic, Firebase
+            and TypeScript, with a strong focus on architecture, code quality and
+            developer experience. I own projects end-to-end — from scoping and
+            architecture to delivery — and love learning new things and trying
+            them in side projects.
+        </p>
+        <p class="availability">
+          Currently <span class="highlighted">open to Senior / Tech Lead remote roles</span> worldwide.
         </p>
       </div>
     );

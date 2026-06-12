@@ -12,9 +12,13 @@ export class WebFooter {
         <div class="footer-main">
           Feel free to contact me on
           <div class="footer-links">
-            <a target="_blank" href="https://twitter.com/fdom92" rel="noopener"
-            title="This link opens my twitter account in a new tab.">
-              <lazy-img src="../assets/logo-twitter.svg" alt="Twitter"/>
+            <a href="mailto:fer.olmo92@gmail.com"
+            title="This link opens your email client to contact me.">
+              <lazy-img src="../assets/logo-email.svg" alt="Email"/>
+            </a>
+            <a target="_blank" href="https://x.com/fdom92" rel="noopener"
+            title="This link opens my X account in a new tab.">
+              <lazy-img src="../assets/logo-twitter.svg" alt="X"/>
             </a>
             <a target="_blank" href="https://github.com/Fdom92/" rel="noopener"
             title="This link opens my github account in a new tab.">
@@ -31,7 +35,7 @@ export class WebFooter {
           </div>
         </div>
         <div class="footer-info">
-          © 2017 — Developed with ❤️ by Fernando Del Olmo Martín
+          © 2026 — Developed with ❤️ by Fernando Del Olmo Martín
         </div>
       </footer>
     );

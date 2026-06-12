@@ -1,0 +1,18 @@
+my-skills {
+  .my-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 25px 25px 25px;
+
+    tech-chip {
+      margin: 5px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .my-skills-container {
+      padding: 0 125px 25px 125px;
+    }
+  }
+}

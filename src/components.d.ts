@@ -15,13 +15,9 @@ export namespace Components {
   }
   interface MyCv {}
   interface MyExperience {}
-  interface MyHobbies {}
   interface MyInfo {}
   interface MyProjects {}
-  interface SingleHobby {
-    'alt': string;
-    'path': string;
-  }
+  interface MySkills {}
   interface SingleProject {
     'project': any;
   }
@@ -54,12 +50,6 @@ declare global {
     new (): HTMLMyExperienceElement;
   };
 
-  interface HTMLMyHobbiesElement extends Components.MyHobbies, HTMLStencilElement {}
-  var HTMLMyHobbiesElement: {
-    prototype: HTMLMyHobbiesElement;
-    new (): HTMLMyHobbiesElement;
-  };
-
   interface HTMLMyInfoElement extends Components.MyInfo, HTMLStencilElement {}
   var HTMLMyInfoElement: {
     prototype: HTMLMyInfoElement;
@@ -72,10 +62,10 @@ declare global {
     new (): HTMLMyProjectsElement;
   };
 
-  interface HTMLSingleHobbyElement extends Components.SingleHobby, HTMLStencilElement {}
-  var HTMLSingleHobbyElement: {
-    prototype: HTMLSingleHobbyElement;
-    new (): HTMLSingleHobbyElement;
+  interface HTMLMySkillsElement extends Components.MySkills, HTMLStencilElement {}
+  var HTMLMySkillsElement: {
+    prototype: HTMLMySkillsElement;
+    new (): HTMLMySkillsElement;
   };
 
   interface HTMLSingleProjectElement extends Components.SingleProject, HTMLStencilElement {}
@@ -111,10 +101,9 @@ declare global {
     'lazy-img': HTMLLazyImgElement;
     'my-cv': HTMLMyCvElement;
     'my-experience': HTMLMyExperienceElement;
-    'my-hobbies': HTMLMyHobbiesElement;
     'my-info': HTMLMyInfoElement;
     'my-projects': HTMLMyProjectsElement;
-    'single-hobby': HTMLSingleHobbyElement;
+    'my-skills': HTMLMySkillsElement;
     'single-project': HTMLSingleProjectElement;
     'tech-chip': HTMLTechChipElement;
     'web-footer': HTMLWebFooterElement;
@@ -131,13 +120,9 @@ declare namespace LocalJSX {
   }
   interface MyCv {}
   interface MyExperience {}
-  interface MyHobbies {}
   interface MyInfo {}
   interface MyProjects {}
-  interface SingleHobby {
-    'alt'?: string;
-    'path'?: string;
-  }
+  interface MySkills {}
   interface SingleProject {
     'project'?: any;
   }
@@ -152,10 +137,9 @@ declare namespace LocalJSX {
     'lazy-img': LazyImg;
     'my-cv': MyCv;
     'my-experience': MyExperience;
-    'my-hobbies': MyHobbies;
     'my-info': MyInfo;
     'my-projects': MyProjects;
-    'single-hobby': SingleHobby;
+    'my-skills': MySkills;
     'single-project': SingleProject;
     'tech-chip': TechChip;
     'web-footer': WebFooter;
@@ -173,10 +157,9 @@ declare module "@stencil/core" {
       'lazy-img': LocalJSX.LazyImg & JSXBase.HTMLAttributes<HTMLLazyImgElement>;
       'my-cv': LocalJSX.MyCv & JSXBase.HTMLAttributes<HTMLMyCvElement>;
       'my-experience': LocalJSX.MyExperience & JSXBase.HTMLAttributes<HTMLMyExperienceElement>;
-      'my-hobbies': LocalJSX.MyHobbies & JSXBase.HTMLAttributes<HTMLMyHobbiesElement>;
       'my-info': LocalJSX.MyInfo & JSXBase.HTMLAttributes<HTMLMyInfoElement>;
       'my-projects': LocalJSX.MyProjects & JSXBase.HTMLAttributes<HTMLMyProjectsElement>;
-      'single-hobby': LocalJSX.SingleHobby & JSXBase.HTMLAttributes<HTMLSingleHobbyElement>;
+      'my-skills': LocalJSX.MySkills & JSXBase.HTMLAttributes<HTMLMySkillsElement>;
       'single-project': LocalJSX.SingleProject & JSXBase.HTMLAttributes<HTMLSingleProjectElement>;
       'tech-chip': LocalJSX.TechChip & JSXBase.HTMLAttributes<HTMLTechChipElement>;
       'web-footer': LocalJSX.WebFooter & JSXBase.HTMLAttributes<HTMLWebFooterElement>;

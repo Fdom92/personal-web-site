@@ -8,6 +8,14 @@ export class MyProjects {
 
   @State() projects: any = [
     {
+      title: 'PantryMind',
+      description: 'Smart pantry management app to track household inventory, reduce food waste and plan meals intelligently.',
+      tags: [
+          'Ionic', 'Firebase'
+      ],
+      more: 'https://github.com/Fdom92/Pantry-Manager'
+    },
+    {
       title: 'Personal web site',
       description: 'My personal web site was also made using just Stencil, it is also a PWA.',
       tags: [
@@ -25,9 +33,9 @@ export class MyProjects {
     },
     {
       title: 'Stencil Snippets',
-      description: 'Stencil Snippets for VCode',
+      description: 'Stencil Snippets for VS Code',
       tags: [
-          'VCode', 'Snippets'
+          'VS Code', 'Snippets'
       ],
       more: 'https://github.com/Fdom92/stencil-snippets'
     },
