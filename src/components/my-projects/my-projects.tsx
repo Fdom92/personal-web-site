@@ -11,7 +11,7 @@ export class MyProjects {
       title: 'PantryMind',
       description: 'Smart pantry management app to track household inventory, reduce food waste and plan meals intelligently.',
       tags: [
-          'Ionic', 'Firebase'
+          'Angular', 'Ionic'
       ],
       more: 'https://github.com/Fdom92/Pantry-Manager'
     },

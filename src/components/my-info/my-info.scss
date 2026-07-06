@@ -1,11 +1,20 @@
 my-info {
   .container {
     padding: 25px 25px 25px 25px;
+    max-width: 760px;
   }
 
-  .availability {
+  .lead {
+    font-family: var(--font-heading);
+    font-size: 21px;
     font-weight: 600;
-    text-align: center;
+    line-height: 1.5em;
+    color: #16161d;
+    margin-bottom: 16px;
+  }
+
+  .support {
+    font-size: 16px;
   }
 
   @media only screen and (min-width: 600px) {

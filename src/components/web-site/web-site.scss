@@ -1,20 +1,32 @@
 body {
-  $text: #666666;
-  $text-highlighted: #212121;
+  $text: #4b5563;
+  $text-highlighted: #16161d;
 
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
   background-color: #ffffff;
   color-scheme: light;
 
   h1.section-title {
+    font-family: var(--font-heading);
     color: $text-highlighted;
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    padding: 25px 25px 25px 25px;
+    font-weight: 600;
+    font-size: 26px;
+    padding: 50px 25px 20px 25px;
     margin: 0;
     cursor: default;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 4px;
+      border-radius: 2px;
+      background: #ff6b6b;
+      margin-top: 12px;
+    }
   }
 
   h2 {
@@ -41,13 +53,13 @@ body {
 
   @media only screen and (min-width: 600px) {
     h1.section-title {
-      padding: 25px 50px 25px 50px;
+      padding: 50px 50px 20px 50px;
     }
   }
 
   @media only screen and (min-width: 768px) {
     h1.section-title {
-      padding: 25px 125px 25px 125px;
+      padding: 50px 125px 20px 125px;
     }
   }
 }

@@ -9,11 +9,11 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
+  interface ClosingCta {}
   interface LazyImg {
     'alt': string;
     'src': string;
   }
-  interface MyCv {}
   interface MyExperience {}
   interface MyInfo {}
   interface MyProjects {}
@@ -32,16 +32,16 @@ export namespace Components {
 declare global {
 
 
+  interface HTMLClosingCtaElement extends Components.ClosingCta, HTMLStencilElement {}
+  var HTMLClosingCtaElement: {
+    prototype: HTMLClosingCtaElement;
+    new (): HTMLClosingCtaElement;
+  };
+
   interface HTMLLazyImgElement extends Components.LazyImg, HTMLStencilElement {}
   var HTMLLazyImgElement: {
     prototype: HTMLLazyImgElement;
     new (): HTMLLazyImgElement;
-  };
-
-  interface HTMLMyCvElement extends Components.MyCv, HTMLStencilElement {}
-  var HTMLMyCvElement: {
-    prototype: HTMLMyCvElement;
-    new (): HTMLMyCvElement;
   };
 
   interface HTMLMyExperienceElement extends Components.MyExperience, HTMLStencilElement {}
@@ -98,8 +98,8 @@ declare global {
     new (): HTMLWebSiteElement;
   };
   interface HTMLElementTagNameMap {
+    'closing-cta': HTMLClosingCtaElement;
     'lazy-img': HTMLLazyImgElement;
-    'my-cv': HTMLMyCvElement;
     'my-experience': HTMLMyExperienceElement;
     'my-info': HTMLMyInfoElement;
     'my-projects': HTMLMyProjectsElement;
@@ -113,12 +113,12 @@ declare global {
 }
 
 declare namespace LocalJSX {
+  interface ClosingCta {}
   interface LazyImg {
     'alt'?: string;
     'onLazyImgloaded'?: (event: CustomEvent<HTMLImageElement>) => void;
     'src'?: string;
   }
-  interface MyCv {}
   interface MyExperience {}
   interface MyInfo {}
   interface MyProjects {}
@@ -134,8 +134,8 @@ declare namespace LocalJSX {
   interface WebSite {}
 
   interface IntrinsicElements {
+    'closing-cta': ClosingCta;
     'lazy-img': LazyImg;
-    'my-cv': MyCv;
     'my-experience': MyExperience;
     'my-info': MyInfo;
     'my-projects': MyProjects;
@@ -154,8 +154,8 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
+      'closing-cta': LocalJSX.ClosingCta & JSXBase.HTMLAttributes<HTMLClosingCtaElement>;
       'lazy-img': LocalJSX.LazyImg & JSXBase.HTMLAttributes<HTMLLazyImgElement>;
-      'my-cv': LocalJSX.MyCv & JSXBase.HTMLAttributes<HTMLMyCvElement>;
       'my-experience': LocalJSX.MyExperience & JSXBase.HTMLAttributes<HTMLMyExperienceElement>;
       'my-info': LocalJSX.MyInfo & JSXBase.HTMLAttributes<HTMLMyInfoElement>;
       'my-projects': LocalJSX.MyProjects & JSXBase.HTMLAttributes<HTMLMyProjectsElement>;

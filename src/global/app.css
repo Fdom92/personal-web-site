@@ -1,6 +1,39 @@
 /* Document Level Styles */
+:root {
+  --font-heading: 'Space Grotesk', 'Inter', sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  --color-bg: #ffffff;
+  --color-text: #4b5563;
+  --color-text-strong: #16161d;
+  --color-primary: #ff6b6b;
+  --color-primary-dark: #f24d4d;
+  --color-ink: #0f172a;
+  --color-ink-soft: #1e293b;
+  --color-border: #e5e7eb;
+  --color-chip-bg: #f1f2f4;
+}
+
 body {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: var(--font-body);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
 }

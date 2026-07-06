@@ -9,30 +9,15 @@ export class WebFooter {
   render() {
     return (
       <footer>
-        <div class="footer-main">
-          Feel free to contact me on
-          <div class="footer-links">
-            <a href="mailto:fer.olmo92@gmail.com"
-            title="This link opens your email client to contact me.">
-              <lazy-img src="../assets/logo-email.svg" alt="Email"/>
-            </a>
-            <a target="_blank" href="https://x.com/fdom92" rel="noopener"
-            title="This link opens my X account in a new tab.">
-              <lazy-img src="../assets/logo-twitter.svg" alt="X"/>
-            </a>
-            <a target="_blank" href="https://github.com/Fdom92/" rel="noopener"
-            title="This link opens my github account in a new tab.">
-              <lazy-img src="../assets/logo-github.svg" alt="Github"/>
-            </a>
-            <a target="_blank" href="https://linkedin.com/in/fdom92" rel="noopener"
-            title="This link opens my linkedin account in a new tab.">
-              <lazy-img src="../assets/logo-linkedin.svg" alt="Linkedin"/>
-            </a>
-            <a target="_blank" href="https://stackoverflow.com/users/6691908/fernando-del-olmo" rel="noopener"
-            title="This link opens my stackoverflow account in a new tab.">
-              <lazy-img src="../assets/logo-stackoverflow.svg" alt="Stack-overflow"/>
-            </a>
-          </div>
+        <div class="footer-links">
+          <a target="_blank" href="https://github.com/Fdom92/" rel="noopener"
+          title="This link opens my github account in a new tab.">
+            <lazy-img src="../assets/logo-github.svg" alt="Github"/>
+          </a>
+          <a target="_blank" href="https://x.com/fdom92" rel="noopener"
+          title="This link opens my X account in a new tab.">
+            <lazy-img src="../assets/logo-twitter.svg" alt="X"/>
+          </a>
         </div>
         <div class="footer-info">
           © 2026 — Developed with ❤️ by Fernando Del Olmo Martín

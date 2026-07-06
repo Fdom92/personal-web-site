@@ -23,7 +23,7 @@ export class WebSite {
       <my-projects></my-projects>,
       <h1 class="section-title">Work Experience</h1>,
       <my-experience></my-experience>,
-      <my-cv></my-cv>,
+      <closing-cta></closing-cta>,
       <web-footer></web-footer>
     ];
   }

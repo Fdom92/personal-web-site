@@ -1,12 +1,22 @@
 tech-chip {
   .chip {
     display: inline-block;
-    padding: 0 12px;
-    border-radius: 16px;
-    background-color: #e6e6e6;
+    padding: 4px 14px;
+    border-radius: 999px;
+    background-color: var(--color-chip-bg, #f1f2f4);
     cursor: default;
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: #e5e7eb;
+    }
+
     p {
-      font-size: 16px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #374151;
+      line-height: 1.4em;
+      margin: 0;
     }
   }
 }

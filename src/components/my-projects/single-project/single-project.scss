@@ -2,32 +2,33 @@ single-project {
     .card {
         width: 100%;
         height: 100%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        border: 1px solid #e0e0e0;
-        transition: 0.3s;
+        border-radius: 12px;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.08);
+        border: 1px solid #e5e7eb;
+        transition: 0.25s ease;
+        overflow: hidden;
 
         .container {
-            padding: 10px 15px;
+            padding: 16px 18px;
             cursor: default;
 
             .title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
                 h2 {
+                    font-family: var(--font-heading);
                     line-height: 32px;
-                    display: initial;
                 }
-                .code {
-                    float: right;
+
+                .code-link {
                     display: flex;
-                    label {
-                        font-size: 16px;
-                        font-weight: 300;
-                        line-height: 32px;
-                        padding-right: 5px;
-                    }
+                    flex-shrink: 0;
+
                     lazy-img img {
-                        height: 16px;
-                        width: 16px;
-                        padding-top: 5px;
+                        height: 18px;
+                        width: 18px;
                     }
                 }
             }
@@ -48,8 +49,54 @@ single-project {
             }
         }
         &:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-            transform: translateY(-5px);
+            box-shadow: 0 12px 24px 0 rgba(0,0,0,0.12);
+            border-color: #d1d5db;
+            transform: translateY(-4px);
+        }
+    }
+
+    .card-cta {
+        display: flex;
+        text-decoration: none;
+        border: 1.5px dashed #fca5a5;
+        background: rgba(255, 107, 107, 0.05);
+        cursor: pointer;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            cursor: pointer;
+
+            h2 {
+                font-family: var(--font-heading);
+                color: #16161d;
+                margin: 0 0 6px 0;
+            }
+
+            p {
+                font-size: 15px;
+                margin-bottom: 12px;
+            }
+
+            .arrow {
+                font-weight: 600;
+                color: var(--color-primary, #ff6b6b);
+                font-size: 15px;
+                transition: transform 0.2s ease;
+            }
+        }
+
+        &:hover {
+            border-color: var(--color-primary, #ff6b6b);
+            background: rgba(255, 107, 107, 0.1);
+
+            .arrow {
+                transform: translateX(4px);
+            }
         }
     }
 }

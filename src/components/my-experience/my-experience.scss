@@ -5,7 +5,7 @@ my-experience {
 
     .container-fluid {
         .row {
-            padding: 25px 25px 25px 25px;
+            padding: 0px 25px 25px 25px;
         }
     }
     .timeline {
@@ -96,7 +96,7 @@ my-experience {
         }
     }
     .timeline-content {
-        padding-bottom: 40px;
+        padding-bottom: 22px;
         p {
             color: $text;
             font-size: 16px;
@@ -104,6 +104,9 @@ my-experience {
             line-height: 24px;
             margin: 0;
         }
+    }
+    .timeline-title {
+        font-family: var(--font-heading);
     }
     .period {
         padding: 0;
@@ -119,23 +122,24 @@ my-experience {
                 border: none;
                 border-radius: 0;
                 top: 0;
-                bottom: 30px;
+                bottom: 18px;
                 position: absolute;
                 border-top: 3px solid #CCD5DB;
                 border-bottom: 3px solid #CCD5DB;
             }
             &:after {
                 content: "";
-                height: 32px;
+                height: 20px;
                 top: auto;
             }
         }
         .timeline-content {
-            padding: 20px 0 50px;
+            padding: 10px 0 24px;
         }
         .timeline-title {
             color: $text-highlighted;
-            font-size: 18px;
+            font-weight: 700;
+            font-size: 20px;
             margin: 0;
         }
     }
