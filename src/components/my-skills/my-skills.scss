@@ -1,18 +1,44 @@
 my-skills {
   .my-skills-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 25px 25px 25px;
+  }
+
+  .skills-group-label {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-primary-dark);
+    margin-bottom: 10px;
+  }
+
+  .skills-group-chips {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 25px 25px 25px;
+    gap: 8px;
 
     tech-chip {
-      margin: 5px;
+      margin: 0;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .my-skills-container {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 50px 25px 50px;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .my-skills-container {
+      grid-template-columns: repeat(3, 1fr);
       padding: 0 125px 25px 125px;
+      gap: 28px;
     }
   }
 }

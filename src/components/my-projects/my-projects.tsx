@@ -13,6 +13,7 @@ export class MyProjects {
       tags: [
           'Vanilla JS', 'PWA', 'Offline-first'
       ],
+      image: 'https://opengraph.githubassets.com/1/Fdom92/azimut',
       more: 'https://github.com/Fdom92/azimut'
     },
     {
@@ -21,6 +22,7 @@ export class MyProjects {
       tags: [
           'Vanilla JS', 'PWA', 'Security'
       ],
+      image: 'https://opengraph.githubassets.com/1/Fdom92/cerberus',
       more: 'https://github.com/Fdom92/cerberus'
     },
     {
@@ -29,6 +31,7 @@ export class MyProjects {
       tags: [
           'Angular', 'Ionic', 'Capacitor'
       ],
+      image: 'https://opengraph.githubassets.com/1/Fdom92/Pantry-Manager',
       more: 'https://github.com/Fdom92/Pantry-Manager'
     },
     {

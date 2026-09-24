@@ -26,6 +26,7 @@ export namespace Components {
   }
   interface WebFooter {}
   interface WebHeader {}
+  interface WebNav {}
   interface WebSite {}
 }
 
@@ -92,6 +93,12 @@ declare global {
     new (): HTMLWebHeaderElement;
   };
 
+  interface HTMLWebNavElement extends Components.WebNav, HTMLStencilElement {}
+  var HTMLWebNavElement: {
+    prototype: HTMLWebNavElement;
+    new (): HTMLWebNavElement;
+  };
+
   interface HTMLWebSiteElement extends Components.WebSite, HTMLStencilElement {}
   var HTMLWebSiteElement: {
     prototype: HTMLWebSiteElement;
@@ -108,6 +115,7 @@ declare global {
     'tech-chip': HTMLTechChipElement;
     'web-footer': HTMLWebFooterElement;
     'web-header': HTMLWebHeaderElement;
+    'web-nav': HTMLWebNavElement;
     'web-site': HTMLWebSiteElement;
   }
 }
@@ -131,6 +139,7 @@ declare namespace LocalJSX {
   }
   interface WebFooter {}
   interface WebHeader {}
+  interface WebNav {}
   interface WebSite {}
 
   interface IntrinsicElements {
@@ -144,6 +153,7 @@ declare namespace LocalJSX {
     'tech-chip': TechChip;
     'web-footer': WebFooter;
     'web-header': WebHeader;
+    'web-nav': WebNav;
     'web-site': WebSite;
   }
 }
@@ -164,6 +174,7 @@ declare module "@stencil/core" {
       'tech-chip': LocalJSX.TechChip & JSXBase.HTMLAttributes<HTMLTechChipElement>;
       'web-footer': LocalJSX.WebFooter & JSXBase.HTMLAttributes<HTMLWebFooterElement>;
       'web-header': LocalJSX.WebHeader & JSXBase.HTMLAttributes<HTMLWebHeaderElement>;
+      'web-nav': LocalJSX.WebNav & JSXBase.HTMLAttributes<HTMLWebNavElement>;
       'web-site': LocalJSX.WebSite & JSXBase.HTMLAttributes<HTMLWebSiteElement>;
     }
   }

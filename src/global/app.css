@@ -14,10 +14,18 @@
   --color-chip-bg: #f1f2f4;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: var(--font-body);
+}
+
+h1.section-title {
+  scroll-margin-top: 70px;
 }
 
 .btn {

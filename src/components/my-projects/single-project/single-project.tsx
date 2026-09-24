@@ -30,6 +30,11 @@ export class SingleProject {
       });
       return (
         <div class="card">
+          {this.project.image &&
+            <div class="thumb">
+              <img src={this.project.image} alt={`${this.project.title} preview`} loading="lazy"/>
+            </div>
+          }
           <div class="container">
             <div class="title">
               <h2>{this.project.title}</h2>
