@@ -7,8 +7,9 @@ import { Component, h } from '@stencil/core';
 export class MySkills {
 
   skills: string[] = [
-    'Angular', 'Ionic', 'Firebase', 'TypeScript', 'NGXS',
-    'NodeJS', 'Capacitor', 'Stencil', 'SASS'
+    'Angular', 'TypeScript', 'RxJS', 'Ionic', 'Capacitor', 'Stencil',
+    'NGXS', 'Firebase', 'NodeJS', 'Nx', 'Jest', 'Cypress', 'Playwright',
+    'GitHub Actions', 'SASS'
   ];
 
   render() {

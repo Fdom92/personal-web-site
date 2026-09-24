@@ -8,36 +8,28 @@ export class MyProjects {
 
   @State() projects: any = [
     {
-      title: 'PantryMind',
-      description: 'Smart pantry management app to track household inventory, reduce food waste and plan meals intelligently.',
+      title: 'Azimut',
+      description: 'Offline-first wilderness tools that run entirely in your browser: sun, moon, orientation, knots and distress signalling. No backend, no account, no build step.',
       tags: [
-          'Angular', 'Ionic'
+          'Vanilla JS', 'PWA', 'Offline-first'
+      ],
+      more: 'https://github.com/Fdom92/azimut'
+    },
+    {
+      title: 'Cerberus',
+      description: 'Local-first security PWA to check suspicious links, emails, SMS, files and apps straight from your phone. No backend, no accounts, no build step.',
+      tags: [
+          'Vanilla JS', 'PWA', 'Security'
+      ],
+      more: 'https://github.com/Fdom92/cerberus'
+    },
+    {
+      title: 'Pantry-Manager',
+      description: 'App to manage your pantry at home: track inventory, reduce food waste and plan meals, shipped to Android with Capacitor.',
+      tags: [
+          'Angular', 'Ionic', 'Capacitor'
       ],
       more: 'https://github.com/Fdom92/Pantry-Manager'
-    },
-    {
-      title: 'Personal web site',
-      description: 'My personal web site was also made using just Stencil, it is also a PWA.',
-      tags: [
-          'Stenciljs', 'PWA'
-      ],
-      more: 'https://github.com/Fdom92/personal-web-site'
-    },
-    {
-      title: 'Anidb',
-      description: 'A PWA to search information about your favorites animes',
-      tags: [
-          'Stenciljs', 'PWA'
-      ],
-      more: 'https://github.com/Fdom92/anidb'
-    },
-    {
-      title: 'Stencil Snippets',
-      description: 'Stencil Snippets for VS Code',
-      tags: [
-          'VS Code', 'Snippets'
-      ],
-      more: 'https://github.com/Fdom92/stencil-snippets'
     },
     {
       title: 'More Projects',

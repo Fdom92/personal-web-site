@@ -17,26 +17,6 @@ export class MyExperience {
                                 <div class="timeline-info"></div>
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
-                                    <h2 class="timeline-title">2020</h2>
-                                </div>
-                            </li>
-                            <li class="timeline-item">
-                                <div class="timeline-info">
-                                    <span>January</span>
-                                </div>
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
-                                    <h3 class="timeline-title">
-                                        Software Engineer at
-                                        <a class="timeline-link" href="https://www.startupwars.com/">Startup Wars</a>
-                                    </h3>
-                                    <p>Jan 2020 – Present. Part of a fully remote team building a competitive strategy platform for entrepreneurs, using Angular, Ionic, Firebase, NGXS and NodeJS.</p>
-                                </div>
-                            </li>
-                            <li class="timeline-item period">
-                                <div class="timeline-info"></div>
-                                <div class="timeline-marker"></div>
-                                <div class="timeline-content">
                                     <h2 class="timeline-title">2018</h2>
                                 </div>
                             </li>
@@ -47,10 +27,11 @@ export class MyExperience {
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title">
-                                        Software Engineer at
+                                        Senior Software Engineer at
                                         <a class="timeline-link" href="https://openforge.io/">OpenForge</a>
                                     </h3>
-                                    <p>Apr 2018 – Present. Managing the full development lifecycle of client projects, building cross-platform mobile and web apps with Angular, Ionic, Firebase, NGXS, Capacitor, Stencil and NodeJS.</p>
+                                    <p>Apr 2018 – Present. Remote (Philadelphia, PA, USA). Led the full development lifecycle of client projects, including the Edwards Lifesciences mobile app, from scoping and architecture through to production. Built cross-platform mobile and web apps with Angular, Ionic, Capacitor, Stencil, NGXS, Firebase and Node.js. Improved team processes and tooling, and mentored junior developers through architecture guidance and code reviews.</p>
+                                    <p><a class="timeline-link" href="https://www.startupwars.com/">Startup Wars</a> — internal OpenForge product. Joined in its early development phases; now used by 10k+ users and 100+ US institutions. Drove Scrum ceremonies and contributed to architectural decisions.</p>
                                 </div>
                             </li>
                             <li class="timeline-item period">
@@ -70,7 +51,7 @@ export class MyExperience {
                                         Software Engineer at
                                         <a class="timeline-link" href="http://webjunto.com/">Webjunto</a>
                                     </h3>
-                                    <p>Assisted in the full development lifecycle of web products, working remotely for USA using Angular, Ionic, Firebase, NGXS, Capacitor, Stencil and NodeJS.</p>
+                                    <p>Nov 2017 – Apr 2018. Remote (Philadelphia, PA, USA). Assisted in the full development lifecycle of web and mobile products, from architectural scoping to implementation, using Angular, Ionic, Firebase and Node.js.</p>
                                 </div>
                             </li>
                             <li class="timeline-item period">
@@ -90,8 +71,7 @@ export class MyExperience {
                                     Frontend Developer at
                                         <a class="timeline-link" href="https://www.beeva.com/">Beeva</a>
                                     </h3>
-                                    <p>Make some fixes and add new functionality into an internal BBVA app based on Polymer and Cells.</p>
-                                    <p>Working on the innovation team using javascript with es6, webpack, babel and karma.</p>
+                                    <p>Oct 2016 – Oct 2017. On-site (Madrid, Spain). Developed new features for an internal BBVA application and later joined the innovation team, working with ES6, Webpack, Babel and Karma.</p>
                                 </div>
                             </li>
                             <li class="timeline-item">

@@ -15,10 +15,11 @@ export class MyInfo {
           applications for remote, international teams.
         </p>
         <p class="support">
-          Deep expertise in Angular, Ionic, Firebase and TypeScript, with a strong
-          focus on architecture, code quality and developer experience. I own
-          projects end-to-end — from scoping and architecture to delivery — and
-          love learning new things and trying them in side projects.
+          10+ years building web and mobile products, 8+ of them fully remote for
+          US companies. Deep expertise in Angular, Ionic, TypeScript and Firebase,
+          taking client projects from scoping and architecture through to
+          production, and acting as technical reference for junior developers.
+          Currently exploring Nx monorepos and microfrontends in a side project.
         </p>
       </div>
     );
