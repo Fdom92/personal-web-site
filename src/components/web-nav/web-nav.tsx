@@ -38,7 +38,7 @@ export class WebNav {
     return (
       <nav class={{ 'web-nav': true, 'scrolled': this.scrolled }}>
         <div class="web-nav-inner">
-          <a class="brand" href="#">FdO</a>
+          <a class="brand" href="#">Home</a>
           <div class="links">
             {this.sections.map(id => (
               <a

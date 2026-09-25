@@ -13,7 +13,7 @@ export class MyProjects {
       tags: [
           'Vanilla JS', 'PWA', 'Offline-first'
       ],
-      image: 'https://opengraph.githubassets.com/1/Fdom92/azimut',
+      image: 'https://fdom92.github.io/azimut/icons/social-card.png',
       more: 'https://github.com/Fdom92/azimut'
     },
     {
@@ -22,7 +22,7 @@ export class MyProjects {
       tags: [
           'Vanilla JS', 'PWA', 'Security'
       ],
-      image: 'https://opengraph.githubassets.com/1/Fdom92/cerberus',
+      image: 'https://fdom92.github.io/cerberus/icons/social-card.png',
       more: 'https://github.com/Fdom92/cerberus'
     },
     {
@@ -31,7 +31,7 @@ export class MyProjects {
       tags: [
           'Angular', 'Ionic', 'Capacitor'
       ],
-      image: 'https://opengraph.githubassets.com/1/Fdom92/Pantry-Manager',
+      image: 'https://fdom92.github.io/Pantry-Manager/screenshot-dashboard.png',
       more: 'https://github.com/Fdom92/Pantry-Manager'
     },
     {
