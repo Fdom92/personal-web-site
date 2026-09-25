@@ -8,8 +8,19 @@ export class WebSite {
 
   componentDidLoad() {
     window.addEventListener('swUpdate', () => {
+      navigator.serviceWorker.getRegistration().then(reg => {
+        if (reg && reg.waiting) {
+          reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+        }
+      });
+    });
+
+    let refreshing = false;
+    navigator.serviceWorker && navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (refreshing) return;
+      refreshing = true;
       window.location.reload();
-    })
+    });
   }
 
   render() {
