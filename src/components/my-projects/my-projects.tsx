@@ -31,7 +31,7 @@ export class MyProjects {
       tags: [
           'Angular', 'Ionic', 'Capacitor'
       ],
-      image: 'https://fdom92.github.io/Pantry-Manager/screenshot-dashboard.png',
+      image: 'https://fdom92.github.io/Pantry-Manager/social-card.png',
       more: 'https://github.com/Fdom92/Pantry-Manager'
     },
     {
