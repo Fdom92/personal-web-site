@@ -31,7 +31,11 @@ export class WebHeader {
             </div>
           </div>
           <div class="hero-media">
-            <img src="../assets/Fdom-portrait.png" alt="Fernando del Olmo Martín"/>
+            <picture>
+              <source type="image/avif" srcSet="../assets/Fdom-portrait.avif"/>
+              <source type="image/webp" srcSet="../assets/Fdom-portrait.webp"/>
+              <img src="../assets/Fdom-portrait.png" alt="Fernando del Olmo Martín" width={570} height={358} {...({ fetchpriority: 'high' } as any)}/>
+            </picture>
           </div>
         </div>
       </header>

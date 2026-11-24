@@ -1,4 +1,4 @@
-import { Component, State, h } from '@stencil/core';
+import { Build, Component, State, h } from '@stencil/core';
 
 @Component({
     tag: 'web-nav',
@@ -12,15 +12,27 @@ export class WebNav {
   sections: string[] = ['about', 'skills', 'portfolio', 'experience'];
 
   componentDidLoad() {
+    if (!Build.isBrowser) return;
     window.addEventListener('scroll', this.onScroll, { passive: true });
-    this.onScroll();
+    this.update();
   }
 
   disconnectedCallback() {
     window.removeEventListener('scroll', this.onScroll);
   }
 
+  ticking = false;
+
   onScroll = () => {
+    if (this.ticking) return;
+    this.ticking = true;
+    requestAnimationFrame(() => {
+      this.ticking = false;
+      this.update();
+    });
+  }
+
+  update() {
     this.scrolled = window.scrollY > 40;
 
     const offset = 90;

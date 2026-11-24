@@ -1,4 +1,22 @@
 /* Document Level Styles */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url('/assets/fonts/space-grotesk-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/assets/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
   --font-heading: 'Space Grotesk', 'Inter', sans-serif;
   --font-body: 'Inter', -apple-system, sans-serif;
@@ -8,14 +26,17 @@
   --color-text-strong: #16161d;
   --color-primary: #ff6b6b;
   --color-primary-dark: #f24d4d;
+  --color-accent-text: #c92a2a;
   --color-ink: #0f172a;
   --color-ink-soft: #1e293b;
   --color-border: #e5e7eb;
   --color-chip-bg: #f1f2f4;
 }
 
-html {
-  scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -24,8 +45,30 @@ body {
   font-family: var(--font-body);
 }
 
-h1.section-title {
+h2.section-title {
   scroll-margin-top: 70px;
+}
+
+main:focus {
+  outline: none;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  z-index: 200;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: var(--color-ink);
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 12px;
 }
 
 .btn {

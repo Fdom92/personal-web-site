@@ -15,7 +15,7 @@ export class SingleProject {
           <a class="card card-cta" target="_blank" rel="noopener" href={this.project.more}
           title="This link opens my github account in a new tab.">
             <div class="container">
-              <h2>{this.project.title}</h2>
+              <h3>{this.project.title}</h3>
               <p>{this.project.description}</p>
               <span class="arrow">View on GitHub →</span>
             </div>
@@ -37,7 +37,7 @@ export class SingleProject {
           }
           <div class="container">
             <div class="title">
-              <h2>{this.project.title}</h2>
+              <h3>{this.project.title}</h3>
               <a class="code-link" target="_blank" href={this.project.more} rel="noopener"
               title="This link opens my project code in a new tab.">
                 <lazy-img src="../assets/logo-github-2.svg" alt="Github"/>

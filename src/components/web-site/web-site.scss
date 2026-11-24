@@ -7,7 +7,7 @@ body {
   background-color: #ffffff;
   color-scheme: light;
 
-  h1.section-title {
+  h2.section-title {
     font-family: var(--font-heading);
     color: $text-highlighted;
     font-style: normal;
@@ -29,11 +29,6 @@ body {
     }
   }
 
-  h2 {
-    color: $text-highlighted;
-    font-size: 16px;
-  }
-
   p {
     margin: 0;
     font-weight: 400;
@@ -52,13 +47,13 @@ body {
   }
 
   @media only screen and (min-width: 600px) {
-    h1.section-title {
+    h2.section-title {
       padding: 50px 50px 20px 50px;
     }
   }
 
   @media only screen and (min-width: 768px) {
-    h1.section-title {
+    h2.section-title {
       padding: 50px 125px 20px 125px;
     }
   }

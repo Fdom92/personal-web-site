@@ -84,7 +84,7 @@ my-experience {
                 text-decoration: none;
                 background-image: linear-gradient($primary-color 50%, $primary-color 50%);
                 background-size: 10000px 1px;
-                color: $primary-color;
+                color: var(--color-accent-text);
                 background-repeat: no-repeat;
                 background-position: 0 1em;
                 background-position: -10000px 1em;
@@ -103,6 +103,10 @@ my-experience {
             font-weight: 400;
             line-height: 24px;
             margin: 0;
+        }
+        p a {
+            color: var(--color-accent-text);
+            font-weight: 600;
         }
     }
     .timeline-title {

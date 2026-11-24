@@ -35,8 +35,10 @@ single-project {
                 align-items: center;
                 justify-content: space-between;
 
-                h2 {
+                h3 {
                     font-family: var(--font-heading);
+                    font-size: 16px;
+                    color: #16161d;
                     line-height: 32px;
                 }
 
@@ -89,8 +91,9 @@ single-project {
             width: 100%;
             cursor: pointer;
 
-            h2 {
+            h3 {
                 font-family: var(--font-heading);
+                font-size: 16px;
                 color: #16161d;
                 margin: 0 0 6px 0;
             }
@@ -102,7 +105,7 @@ single-project {
 
             .arrow {
                 font-weight: 600;
-                color: var(--color-primary, #ff6b6b);
+                color: var(--color-accent-text);
                 font-size: 15px;
                 transition: transform 0.2s ease;
             }

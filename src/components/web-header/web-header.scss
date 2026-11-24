@@ -95,6 +95,10 @@ web-header {
     flex-shrink: 0;
     width: 220px;
 
+    picture {
+      display: block;
+    }
+
     img {
       display: block;
       width: 100%;
